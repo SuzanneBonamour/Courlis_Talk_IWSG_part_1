@@ -1,0 +1,153 @@
+---
+title: "From Shorelines to Marshlands: Exploring Curlew Journeys near Moëze-Oléron"
+title-slide-attributes:
+  data-background-image: gros-plan-d-un-jeune-courlis-avec-son-long-bec-elance-marchant-sur-le-rivage.jpg
+  data-background-size: cover
+  data-background-opacity: "0.9"
+author: "Suzanne BONAMOUR, Gwenaël QUINTENNE, Pierre ROUSSEAU, Loïc JOMAT, Pierrick BOCHER, Frédérique JIGUET, Adrien CHAIGNE"
+format:
+  revealjs:
+    embed-resources: false
+    include-in-header: 
+      text: |
+        <style>
+        .center-y40 {
+          margin: 0;
+          position: absolute;
+          top: 40%;
+          left: 0%;
+          -ms-transform: translateY(-50%), translateX(-50%);
+          transform: translateY(-50%), translateX(-50%);
+        }
+        </style>
+        <style>
+        .center-y30 {
+          margin: 0;
+          position: absolute;
+          top: 30%;
+          left: 0%;
+          -ms-transform: translateY(-50%), translateX(-50%);
+          transform: translateY(-50%), translateX(-50%);
+        }
+        </style>
+        <style>
+        .center-y20 {
+          margin: 0;
+          position: absolute;
+          top: 20%;
+          left: 0%;
+          -ms-transform: translateY(-50%), translateX(-50%);
+          transform: translateY(-50%), translateX(-50%);
+        }
+        </style>
+        <style>
+        .center-x20y20 {
+          margin: 0;
+          position: absolute;
+          top: 20%;
+          left: 15%;
+          -ms-transform: translateY(-50%), translateX(-50%);
+          transform: translateY(-50%), translateX(-50%);
+        }
+        </style>
+    theme: default
+    slide-number: true
+    logo: httpsfavpng.com.png
+---
+
+## Studied systems {.smaller}
+
+##### The Moëze-Oléron National Nature Reserve
+
+::: {#fig-Photo_intro}
+```{r}
+#| echo: false
+knitr::include_graphics("20230703_Survol drone RNNMO continent_Romain Beaubert LPO (11).jpg", dpi = 100)
+```
+
+The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain Beaubert, LPO).
+:::
+
+## Studied systems {.smaller data-visibility="uncounted"}
+
+##### The Moëze-Oléron National Nature Reserve
+
+::: {#fig-RNN_photo_1}
+```{r}
+#| echo: false
+knitr::include_graphics("RNN_photo_1.png", dpi = 200)
+```
+
+The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain Beaubert, LPO).
+:::
+
+## Studied systems {.smaller data-visibility="uncounted"}
+
+##### The Moëze-Oléron National Nature Reserve
+
+::: {#fig-RNN_photo_3}
+```{r}
+#| echo: false
+knitr::include_graphics("RNN_photo_3.png", dpi = 200)
+```
+
+The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain Beaubert, LPO).
+:::
+
+## Studied systems {.smaller}
+
+##### The Eurasian curlew
+
+::: {#fig-Photo_intro}
+```{r}
+#| echo: false
+knitr::include_graphics("2-Courlis cendré - Photo Armel Deniau LPO.jpg", dpi = 200)
+```
+
+Eurasian curlew (<em>Numenius arquata</em>, photo: Armel Deniau, LPO).
+:::
+
+
+## Studied systems {.smaller}
+
+##### The GPS tracking
+
+::: {#fig-Photo_intro}
+```{r}
+#| echo: false
+knitr::include_graphics("3-Equipement GPS courlis cendré-Photo Loic Jomat - LPÖ.jpg", dpi = 200)
+```
+
+GPS equipment on an Eurasian curlew (photo: Loic Jomat, LPO).
+:::
+
+## Objectives of the study {.smaller}
+
+::: {.center-y40}
+
+Identify and propose local priority areas to be preserved for the protection of wading birds, as the Eurasian curlew as flagship species.
+
+Understand how the Eurasian curlew uses space in a functional site comprising the Marennes basin and the Brouage marshes, in a context maritimization and strong anthropogenic pressures (hunting, shellfish gathering, oyster farming). 
+
+:::
+
+## Studied area {.smaller}
+
+::: {#fig-zone_map}
+```{r}
+#| echo: false
+
+library(htmltools)
+
+tags$iframe(
+  src = "zone_map_new.html",
+  width = "100%",
+  height = "550px"
+)
+```
+
+Studied area split into three main zones A, B and C. The red pin is the fieldwork station.
+:::
+
+---
+
