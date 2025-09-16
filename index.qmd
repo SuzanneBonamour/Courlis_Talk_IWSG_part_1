@@ -331,4 +331,104 @@ Roosting zone C
 :::
 ::::::
 
+## Roosting-foraging distance - Methods {.smaller}
 
+The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
+
+::: {#fig-distance_roost_forag_allvar_plot}
+```{r}
+#| echo: false
+#| out.width: 90%
+#| fig-align: "center"
+knitr::include_graphics("distance_schema_geoportail_0.png", dpi = 100)
+```
+
+Estimating mean distance (+/- standard error) between roosting and foraging areas for each individual.
+:::
+
+## Roosting-foraging distance - Methods {.smaller data-visibility="uncounted"}
+
+The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
+
+::: {#fig-distance_roost_forag_allvar_plot}
+```{r}
+#| echo: false
+#| out.width: 90%
+#| fig-align: "center"
+knitr::include_graphics("distance_schema_geoportail_1.png", dpi = 100)
+```
+
+Estimating mean distance (+/- standard error) between roosting and foraging areas for each individual.
+:::
+
+## Roosting-foraging distance - Methods {.smaller data-visibility="uncounted"}
+
+The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
+
+::: {#fig-distance_roost_forag_allvar_plot}
+```{r}
+#| echo: false
+#| out.width: 90%
+#| fig-align: "center"
+knitr::include_graphics("distance_schema_geoportail_2.png", dpi = 100)
+```
+
+Estimating mean distance (+/- standard error) between roosting and foraging areas for each individual.
+:::
+
+## Roosting-foraging distance - Methods {.smaller data-visibility="uncounted"}
+
+The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
+
+::: {#fig-distance_roost_forag_allvar_plot}
+```{r}
+#| echo: false
+#| out.width: 90%
+#| fig-align: "center"
+knitr::include_graphics("distance_schema_geoportail_3.png", dpi = 100)
+```
+
+Estimating mean distance (+/- standard error) between roosting and foraging areas for each individual.
+:::
+
+## Roosting-foraging distance - Methods {.smaller data-visibility="uncounted"}
+
+The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
+
+::: {#fig-distance_roost_forag_allvar_plot}
+```{r}
+#| echo: false
+#| out.width: 90%
+#| fig-align: "center"
+knitr::include_graphics("distance_schema_geoportail_4.png", dpi = 100)
+```
+
+Estimating mean distance (+/- standard error) between roosting and foraging areas for each individual.
+:::
+
+## Roosting-foraging distance {.smaller} 
+
+::: {#fig-distance_roost_forag_allvar_plot}
+::: {.center .v-center}
+```{r}
+#| echo: false
+#| out.width: 90%
+knitr::include_graphics("distance_roost_forag_plot_talk.png", dpi = 100)
+```
+:::
+
+Individual mean roosting-foraging distance (+/- standard error).
+:::
+  
+## Roosting-foraging distance {.smaller}
+
+::: {#fig-distance_roost_forag_allvar_plot}
+```{r}
+#| echo: false
+#| out.width: 90%
+#| fig-align: "center"
+knitr::include_graphics("distance_roost_forag_allvar_plot_talk.png", dpi = 100)
+```
+
+Individual mean roosting-foraging distance (+/- standard error) as a function of sex age and the tide height.
+:::
