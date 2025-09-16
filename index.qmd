@@ -13,6 +13,9 @@ format:
     logo: httpsfavpng.com.png
     include-in-header: 
       text: |
+        <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.3.1/dist/reveal.css">
+        <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.3.1/dist/theme/white.css">
+        <script src="https://unpkg.com/reveal.js@4.3.1/dist/reveal.js"></script>
         <style>
         .center-y40 {
           margin: 0;
