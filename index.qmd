@@ -7,7 +7,7 @@ title-slide-attributes:
 author: "Suzanne BONAMOUR, Gwenaël QUINTENNE, Pierre ROUSSEAU, Loïc JOMAT, Pierrick BOCHER, Frédérique JIGUET, Adrien CHAIGNE"
 format:
   revealjs:
-    embed-resources: false
+    self-contained: false
     include-in-header: 
       text: |
         <style>
