@@ -7,15 +7,9 @@ title-slide-attributes:
 author: "Suzanne BONAMOUR, Gwenaël QUINTENNE, Pierre ROUSSEAU, Loïc JOMAT, Pierrick BOCHER, Frédérique JIGUET, Adrien CHAIGNE"
 format:
   revealjs:
-    self-contained: false
-    theme: default
-    slide-number: true
-    logo: httpsfavpng.com.png
+    embed-resources: false
     include-in-header: 
       text: |
-        <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.3.1/dist/reveal.css">
-        <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.3.1/dist/theme/white.css">
-        <script src="https://unpkg.com/reveal.js@4.3.1/dist/reveal.js"></script>
         <style>
         .center-y40 {
           margin: 0;
@@ -56,6 +50,9 @@ format:
           transform: translateY(-50%), translateX(-50%);
         }
         </style>
+    theme: default
+    slide-number: true
+    logo: httpsfavpng.com.png
 ---
 
 ## Studied systems {.smaller}
