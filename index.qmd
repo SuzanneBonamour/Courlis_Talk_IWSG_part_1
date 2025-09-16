@@ -8,6 +8,9 @@ author: "Suzanne BONAMOUR, Gwenaël QUINTENNE, Pierre ROUSSEAU, Loïc JOMAT, Pie
 format:
   revealjs:
     self-contained: false
+    theme: default
+    slide-number: true
+    logo: httpsfavpng.com.png
     include-in-header: 
       text: |
         <style>
@@ -50,9 +53,6 @@ format:
           transform: translateY(-50%), translateX(-50%);
         }
         </style>
-    theme: default
-    slide-number: true
-    logo: httpsfavpng.com.png
 ---
 
 ## Studied systems {.smaller}
