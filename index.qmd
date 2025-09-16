@@ -7,7 +7,7 @@ title-slide-attributes:
 author: "Suzanne BONAMOUR, Gwenaël QUINTENNE, Pierre ROUSSEAU, Loïc JOMAT, Pierrick BOCHER, Frédérique JIGUET, Adrien CHAIGNE"
 format:
   revealjs:
-    embed-resources: true
+    embed-resources: false
     include-in-header: 
       text: |
         <style>
@@ -432,3 +432,229 @@ knitr::include_graphics("distance_roost_forag_allvar_plot_talk.png", dpi = 100)
 
 Individual mean roosting-foraging distance (+/- standard error) as a function of sex age and the tide height.
 :::
+
+## Hunting avoidance behavior {.smaller}  
+
+##### Hunting on public maritime land 
+
+::: {#fig-Photo_intro}
+```{r}
+#| echo: false
+knitr::include_graphics("Photo archives Marc Demeure - VDNPQR.jpg", dpi = 200)
+```
+
+Hunters on the public maritime land (photo : Marc Demeure, VDNPQR)
+:::
+
+## Hunting avoidance behavior {.smaller}
+
+##### Hunting on public maritime land
+
+::: {#fig-UDMap_roosting_A}
+```{r}
+#| echo: false
+
+tags$iframe(
+  src = "UDMap_make_kud_sampled_Foraging_in_out_saison_B.html",
+  width = "100%",
+  height = "500px"
+)
+```
+
+Foraging area during (orange) and out (grey) the hunting season (winter).
+:::
+
+## Hunting avoidance behavior {.smaller data-visibility="uncounted"}
+
+##### Hunting on public maritime land
+
+::: {#fig-UDMap_roosting_A}
+```{r}
+#| echo: false
+
+tags$iframe(
+  src = "UDMap_make_kud_sampled_Roosting_in_out_saison_B.html",
+  width = "100%",
+  height = "500px"
+)
+```
+
+Roosting area during (purple) and out (grey) the hunting season (winter).
+:::
+
+## Hunting avoidance behavior {.smaller}
+
+##### Hunting on public maritime land
+
+Conclusion intermediaire
+
+## Hunting avoidance behavior {.smaller}  
+
+##### Hunting from underground-cabin
+
+::: {#fig-Photo_intro}
+```{r}
+#| echo: false
+knitr::include_graphics("Une_tonne_de_chasse_au_gibier_d'eau.jpg", dpi = 200)
+```
+
+Underground hunting cabin.
+:::
+
+## Hunting avoidance behavior {.smaller}
+
+##### Hunting from underground-cabin
+
+::: {#fig-UDMap_roosting_A}
+```{r}
+#| echo: false
+
+tags$iframe(
+  src = "map_tonnes_v0.html",
+  width = "100%",
+  height = "500px"
+)
+```
+
+Hunting cabins (black points).
+:::
+
+## Hunting avoidance behavior {.smaller data-visibility="uncounted"}
+
+##### Hunting from underground-cabin
+
+::: {#fig-UDMap_roosting_A}
+```{r}
+#| echo: false
+
+tags$iframe(
+  src = "map_tonnes_v2.html",
+  width = "100%",
+  height = "500px"
+)
+```
+
+Hunting cabins (black points), danger zone (300 m, red), marginal zone (1500 m, yellow).
+:::
+
+## Hunting avoidance behavior {.smaller}
+
+##### Hunting from underground-cabin
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {#fig-RNN_photo_3}
+```{r}
+#| echo: false
+knitr::include_graphics("preds_heure_chasse_plot.png", dpi = 200)
+```
+
+Generalized linear mixed model (GLMM, package glmmTMB, link function Gamma).
+:::
+:::
+
+::: {.column width="50%"}
+
+<br/> <!---
+blank line, saut de ligne
+-->
+
+Birds are more often in the maginal than the danger zone
+
+<br/> <!---
+blank line, saut de ligne
+-->
+
+They moove toward the studied zone when the hunting is allowed, 
+
+but choose more often the marginal zone than the danger zone 
+
+<br/> <!---
+blank line, saut de ligne
+-->
+
+***Birds seems to avoid hunting cabins***
+
+:::
+::::
+
+## Hunting avoidance behavior {.smaller}
+
+##### Hunting from underground-cabin
+
+Conclusion intermediaire
+
+## Critical roosting and feeding zone {.smaller} 
+
+::: {#fig-zone_critique_hotspot_map_final}
+```{r}
+#| echo: false
+
+tags$iframe(
+  src = "zone_critique_hotspot_map_final_2.html",
+  width = "100%",
+  height = "550px"
+)
+```
+
+Critical roosting (purple) and feeding (blue) zone, with darker grey with more individual using the area.
+:::
+
+## Conclusion {.smaller} 
+
+Blabla, un truc qui claque !
+
+Explorer les comportements de façon détailler, pour voir si localement, lesi ndividus évitent vraiment les zones de danger
+Plus d'année
+PLus d'ind 
+
+## Collaborators and fundings {.smaller} 
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.mytext style="line-height:0.7;"}
+Statistical and spatial analyses: 
+
+- Suzanne Bonamour [(LPO France)]{style="font-size:50%; color:gray;"}
+- Gwenael Quaintenne [(LPO France)]{style="font-size:50%; color:gray;"}
+
+Fieldwork: 
+
+- Pierre Rousseau [(RNN Moëze-Oléron)]{style="font-size:50%; color:gray;"}
+- Loïc Jomat [(RNN Moëze-Oléron)]{style="font-size:50%; color:gray;"}
+- Frédéric Jiguet [(RNN Moëze-Oléron)]{style="font-size:50%; color:gray;"}
+- Adrien Chaine [(RNN Moëze-Oléron)]{style="font-size:50%; color:gray;"}
+:::
+:::
+::: {.column width="50%"}
+::: {.mytext style="line-height:0.7;"}
+Fundraising: 
+
+- Adrien Chaine [(RNN Moëze-Oléron)]{style="font-size:50%; color:gray;"}
+
+Scientific counselling: 
+
+- Pierrick Bocher [(Univ. La Rochelle)]{style="font-size:50%; color:gray;"}
+- Frédérique Jiguet [(MNHN, CESCO, Paris)]{style="font-size:50%; color:gray;"}
+
+Acknowledgements: 
+
+- Anais Dasnon [(LPO France)]{style="font-size:50%; color:gray;"}
+
+:::
+:::
+::::
+
+![](lpo_logo.jpg){.absolute top=500 left=0 width="100" height="100"}
+
+![](reserve_logo.png){.absolute top=500 left=110 width="200" height="100"}
+
+![](MNHN-logo.jpg){.absolute top=500 left=310 width="95" height="100"}
+
+![](logo_CESCO.png){.absolute top=500 left=420 width="240" height="100"}
+
+![](Logo-Prefet-de-la-Region-Nouvelle-Aquitaine.png){.absolute top=500 left=670 width="180" height="100"}
+
+![](Logo-FSE-UE-Region-Nouvelle-Aquitaine.png){.absolute top=500 left=850 width="220" height="100"}
+
