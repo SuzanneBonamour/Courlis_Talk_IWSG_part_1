@@ -436,8 +436,173 @@ Figure&nbsp;6: Studied area split into three main zones A, B and C. The red pin 
 </figure>
 </div>
 </section>
-<section class="slide level2">
+<section id="gps-data" class="slide level2 smaller">
+<h2>GPS data</h2>
 
+<img data-src="emission_plot_talk.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"><p class="caption">
+Figure&nbsp;7: GPS tracking period for each indivdual
+</p><div class="center-x20y20">
+<div class="mytext" style="line-height:0.7;">
+<div style="font-size:60%; color:gray;">
+<p>80 individuals</p>
+<p>36 females, 39 males, 7 unknown</p>
+<p>20 juveniles, 60 adults</p>
+<p>= 2,226,199 studied GPS points</p>
+</div>
+</div>
+</div>
+</section>
+<section id="behaviors-attribution---methods" class="slide level2 smaller">
+<h2>Behaviors attribution - Methods</h2>
+<div class="center-y20">
+<p>The GPS recorded points are associated with a behaviors :</p>
+<p>foraging, roosting and other.</p>
+<p><br> <!---
+blank line, saut de ligne
+--></p>
+<p>Foraging:</p>
+<p>a stationary point 2h before or after a low tide.</p>
+<p><br></p>
+<p>Roosting:</p>
+<p>a stationary point 2h before or after a high tide.</p>
+</div>
+<div class="absolute" style="top:200px; left:700px; width:315px; text-align:left;">
+<figure>
+<img src="Foraging_Tareq Uddin Ahmed.png" width="315" height="230">
+<figcaption style="font-size:0.4em; color:#999">
+Photo: Tareq Uddin Ahmed
+</figcaption>
+</figure>
+</div>
+<div class="absolute" style="top:370px; left:850px; width:315px; text-align:left;">
+<figure>
+<img src="roosting_Laurie Campbell.jpg" width="315" height="230">
+<figcaption style="font-size:0.4em; color:#999">
+Photo: Laurie Campbell
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="space-use-analyses---methods" class="slide level2 smaller">
+<h2>Space use analyses - Methods</h2>
+<p>Main used area estimated with Utilization Distribution (UD) function and the kernel method.</p>
+<div style="font-size:60%; color:gray;">
+<p>The bandwidth parameter <em>h</em> has been fixed for each analyses as the half the estimated Silverman rules values (depending on the variance in latitude and longitude locations) for a fine-grained scale details (functions <span style="font-family:'Courier New', Courier, monospace;">kernelUD</span> and <span style="font-family:'Courier New', Courier, monospace;">getverticeshr</span> from the R package “adehabitatHR”, Calenge 2006, and see Worton, 1995)</p>
+</div>
+</section>
+<section id="foraging-area" class="slide level2 smaller">
+<h2>Foraging area</h2>
+<p>The foraging areas are estimated using Utilization distribution kernel function on the foraging points of all the individuals.</p>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Zone A</a></li><li><a href="#tabset-1-2">Zone B</a></li><li><a href="#tabset-1-3">Zone C</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<div id="fig-UDMap_foraging_A" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-UDMap_foraging_A-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<iframe src="UDMap_make_kud_sampled_Foraging_A.html" width="100%" height="400px"></iframe>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-UDMap_foraging_A-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8: Foraging zone A
+</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-2">
+<div id="fig-UDMap_foraging_B" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-UDMap_foraging_B-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<iframe src="UDMap_make_kud_sampled_Foraging_B.html" width="100%" height="400px"></iframe>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-UDMap_foraging_B-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;9: Foraging zone B
+</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-3">
+<div id="fig-UDMap_foraging_C" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-UDMap_foraging_C-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<iframe src="UDMap_make_kud_sampled_Foraging_C.html" width="100%" height="400px"></iframe>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-UDMap_foraging_C-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10: Foraging zone C
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="roosting-area" class="slide level2 smaller">
+<h2>Roosting area</h2>
+<p>The roosting areas are estimated using Utilization distribution kernel function on the roosting points of all the individuals.</p>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Zone A</a></li><li><a href="#tabset-2-2">Zone B</a></li><li><a href="#tabset-2-3">Zone C</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1">
+<div id="fig-UDMap_roosting_A" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-UDMap_roosting_A-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<iframe src="UDMap_make_kud_sampled_Roosting_A.html" width="100%" height="400px"></iframe>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-UDMap_roosting_A-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11: Roosting zone A
+</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-2-2">
+<div id="fig-UDMap_roosting_B" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-UDMap_roosting_B-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<iframe src="UDMap_make_kud_sampled_Roosting_B.html" width="100%" height="400px"></iframe>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-UDMap_roosting_B-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;12: Roosting zone B
+</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-2-3">
+<div id="fig-UDMap_roosting_C" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-UDMap_roosting_C-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<iframe src="UDMap_make_kud_sampled_Roosting_C.html" width="100%" height="400px"></iframe>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-UDMap_roosting_C-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;13: Roosting zone C
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 <div class="quarto-auto-generated-content">
 <p><img src="httpsfavpng.com.png" class="slide-logo"></p>
 <div class="footer footer-default">
