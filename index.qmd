@@ -7,8 +7,9 @@ title-slide-attributes:
 author: "Suzanne BONAMOUR, Gwenaël QUINTENNE, Pierre ROUSSEAU, Loïc JOMAT, Pierrick BOCHER, Frédérique JIGUET, Adrien CHAIGNE"
 format:
   revealjs:
+    fontsize: 2.5em 
     embed-resources: true
-    include-in-header: 
+    include-in-header: |
       text: |
         <style>
         .center-y40 {
@@ -333,7 +334,9 @@ Roosting zone C
 :::
 ::::::
 
-## Roosting-foraging distance - Methods {.smaller}
+## Roosting-foraging distance {.smaller}
+
+##### Methods
 
 The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
 
@@ -348,7 +351,9 @@ knitr::include_graphics("distance_schema_geoportail_0.png", dpi = 100)
 Estimating mean distance (+/- standard error) between roosting and foraging areas for each individual.
 :::
 
-## Roosting-foraging distance - Methods {.smaller data-visibility="uncounted"}
+## Roosting-foraging distance {.smaller data-visibility="uncounted"}
+
+##### Methods
 
 The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
 
@@ -363,7 +368,9 @@ knitr::include_graphics("distance_schema_geoportail_1.png", dpi = 100)
 Estimating mean distance (+/- standard error) between roosting and foraging areas for each individual.
 :::
 
-## Roosting-foraging distance - Methods {.smaller data-visibility="uncounted"}
+## Roosting-foraging distance {.smaller data-visibility="uncounted"}
+
+##### Methods
 
 The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
 
@@ -378,7 +385,9 @@ knitr::include_graphics("distance_schema_geoportail_2.png", dpi = 100)
 Estimating mean distance (+/- standard error) between roosting and foraging areas for each individual.
 :::
 
-## Roosting-foraging distance - Methods {.smaller data-visibility="uncounted"}
+## Roosting-foraging distance {.smaller data-visibility="uncounted"}
+
+##### Methods
 
 The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
 
@@ -393,7 +402,9 @@ knitr::include_graphics("distance_schema_geoportail_3.png", dpi = 100)
 Estimating mean distance (+/- standard error) between roosting and foraging areas for each individual.
 :::
 
-## Roosting-foraging distance - Methods {.smaller data-visibility="uncounted"}
+## Roosting-foraging distance {.smaller data-visibility="uncounted"}
+
+##### Methods
 
 The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
 
@@ -410,6 +421,8 @@ Estimating mean distance (+/- standard error) between roosting and foraging area
 
 ## Roosting-foraging distance {.smaller} 
 
+##### Results
+
 ::: {#fig-distance_roost_forag_allvar_plot}
 ::: {.center .v-center}
 ```{r}
@@ -423,6 +436,8 @@ Individual mean roosting-foraging distance (+/- standard error).
 :::
   
 ## Roosting-foraging distance {.smaller}
+
+##### Results
 
 :::: {.columns style="display:flex; align-items:center; gap:3em;"}
 
@@ -460,7 +475,7 @@ GLM, link function: Gamma (log).
 
 ::::
 
-## Hunting avoidance behavior on the public maritime land {.smaller}  
+## Avoidance from shore hunting {.smaller}  
 
 ::: {#fig-Photo_intro}
 ```{r}
@@ -471,7 +486,9 @@ knitr::include_graphics("Photo archives Marc Demeure - VDNPQR.jpg", dpi = 200)
 Hunters on the public maritime land (photo : Marc Demeure, VDNPQR)
 :::
 
-## Hunting avoidance behavior on the public maritime land {.smaller}  
+## Avoidance from shore hunting {.smaller}  
+
+##### Results
 
 ::: {#fig-UDMap_roosting_A}
 ```{r}
@@ -484,10 +501,12 @@ tags$iframe(
 )
 ```
 
-Foraging area during (orange) and out (grey) the hunting season (winter).
+Foraging area during (orange) and out (grey) the hunting season (winter) on the public maritime land.
 :::
 
-## Hunting avoidance behavior on the public maritime land {.smaller}  
+## Avoidance from shore hunting {.smaller}  
+
+##### Results
 
 ::: {#fig-UDMap_roosting_A}
 ```{r}
@@ -500,10 +519,12 @@ tags$iframe(
 )
 ```
 
-Roosting area during (purple) and out (grey) the hunting season (winter).
+Roosting area during (purple) and out (grey) the hunting season (winter) on the public maritime land.
 :::
 
-## Hunting avoidance behavior from underground-cabin {.smaller}  
+## Avoidance from shore hunting {.smaller}  
+
+##### Results
 
 :::: {.columns style="display:flex; align-items:center; gap:3em;"}
 
@@ -517,7 +538,7 @@ Roosting area during (purple) and out (grey) the hunting season (winter).
 knitr::include_graphics("pred_all_chasse_plot.png", dpi = 100)
 ```
 
-Individual mean roosting-foraging distance (+/- standard error) as a function of sex and hunting.
+Individual mean roosting-foraging distance (+/- standard error) as a function of sex and hunting on the public maritime land.
 :::
 ::: 
 
@@ -537,7 +558,7 @@ GLM, link function: Gamma (log).
 
 ::::
 
-## Hunting avoidance behavior from underground-cabin {.smaller}  
+## Avoidance from hunting cabin {.smaller}  
 
 ::: {#fig-Photo_intro}
 ```{r}
@@ -548,7 +569,9 @@ knitr::include_graphics("Une_tonne_de_chasse_au_gibier_d'eau.jpg", dpi = 200)
 Underground hunting cabin.
 :::
 
-## Hunting avoidance behavior from underground-cabin {.smaller}  
+## Avoidance from hunting cabin {.smaller} 
+
+##### Methods
 
 ::: {#fig-UDMap_roosting_A}
 ```{r}
@@ -564,7 +587,9 @@ tags$iframe(
 Hunting cabins (black points).
 :::
 
-## Hunting avoidance behavior from underground-cabin {.smaller data-visibility="uncounted"}
+## Avoidance from hunting cabin {.smaller data-visibility="uncounted"}
+
+##### Methods
 
 ::: {#fig-UDMap_roosting_A}
 ```{r}
@@ -580,7 +605,9 @@ tags$iframe(
 Hunting cabins (black points), danger zone (300 m, red), marginal zone (1500 m, yellow).
 :::
 
-## Hunting avoidance behavior from underground-cabin {.smaller}  
+## Avoidance from hunting cabin {.smaller}  
+
+#### Results
 
 :::: {.columns style="display:flex; align-items:center; gap:3em;"}
 
@@ -630,13 +657,38 @@ tags$iframe(
 Critical roosting (purple) and feeding (blue) zone, with darker grey with more individual using the area.
 :::
 
-## Conclusion {.smaller} 
+## To sum up {.smaller} 
 
-Blabla, un truc qui claque !
+- Roosting and foraging areas highly variables among individuals
+  - **Restricted** population **surfaces** during the **hunting** season
 
-Explorer les comportements de façon détailler, pour voir si localement, lesi ndividus évitent vraiment les zones de danger
-Plus d'année
-PLus d'ind 
+- Individual distance between roosting and foraging seems to vary according to 
+  - *age : sex* = **juvenile males** seems to **go further away** to roost vs feed
+  - *sex : spring vs neap tide* = **male** stay **closer** when spring tide
+  - *hunting schedule* = birds **avoid hunting cabin** when hunters are allowed to shoot (at night)
+  
+## Some limits and drawbacks {.smaller} 
+
+- We (always) need more individuals, years and points 
+
+- It would have been very useful to have 
+  - detailed data about hunting pressures
+  - data about fishing and fishing pressures
+  
+- Studying individual 3D movements to have access to detailed hunting avoidance behaviors as a next step ? 
+
+## Key takeaways to better protect curlews... {.smaller}  
+
+##### ...and other wader birds
+
+Regarding the main foraging and roosting areas, it would be desirable to work on an extension of the natural reserve, especially toward North on the main land
+
+To limit anthropogenic pressure in the area, it would be very beneficial to limit the effects of hunting by: 
+
+- reducing the hours during which hunting is permitted
+- limiting the density of hunting cabins (especially in the immediate proximity of the nature reserve).
+
+
 
 ## Collaborators and fundings {.smaller} 
 
