@@ -424,18 +424,9 @@ Individual mean roosting-foraging distance (+/- standard error).
   
 ## Roosting-foraging distance {.smaller}
 
-::: {#fig-distance_roost_forag_allvar_plot}
-```{r}
-#| echo: false
-#| out.width: 90%
-#| fig-align: "center"
-knitr::include_graphics("distance_roost_forag_allvar_plot_talk.png", dpi = 100)
-```
+:::: {.columns style="display:flex; align-items:center; gap:3em;"}
 
-Individual mean roosting-foraging distance (+/- standard error) as a function of sex age and the tide height.
-:::
-
-## Roosting-foraging distance {.smaller}
+::: {.column width="50%"}
 
 ::: {#fig-pred_all_plot.png}
 ```{r}
@@ -447,64 +438,29 @@ knitr::include_graphics("pred_all_plot.png", dpi = 100)
 
 Individual mean roosting-foraging distance (+/- standard error) as a function of sex, age and the tide.
 :::
+::: 
 
-## Roosting-foraging distance {.smaller}
+::: {.column width="50%"}
 
+<div style="text-align:center; font-size:0.7em">
+| Effect                               | Est. | SE | p-val |
+|--------------------------------------|-----:|---:|------:|
+| **Intercept**                            |8.16  |0.13 |**<0.001**|
+| Sex (M)                              |-0.09 |0.14  |0.549   |
+| Age (juvenile)                       |-0.05 |0.30  |0.862   | 
+| Tide (spring tide)                   | 0.03 |0.18  |0.877   |     
+| **Sex (M) × Age (juvenile)**             | 1.08 |0.42  |**0.011**   | 
+| Sex (M) × Tide (spring tide)         |-0.15 |0.20  |0.464   | 
+| **Age (juvenile) × Tide (spring tide)**  |-0.85 |0.42  |**0.047**   | 
 
-oinqonozn
+GLM, link function: Gamma (log).
+</div>
 
+::: 
 
-| Effect                               | Estimate | Std. Error | t value | p-value | Sig. |
-|--------------------------------------|---------:|-----------:|--------:|--------:|:----:|
-| Intercept                            |   8.157  |     0.126  |  64.79  | <0.001  | ***  |
-| Sex (M)                              |  -0.087  |     0.144  |  -0.60  | 0.549   |      |
-| Age (juvenile)                       |  -0.052  |     0.297  |  -0.17  | 0.862   |      |
-| Tide (spring tide)                   |   0.028  |     0.179  |   0.16  | 0.877   |      |
-| Sex (M) × Age (juvenile)             |   1.083  |     0.423  |   2.56  | 0.011   |  *   |
-| Sex (M) × Tide (spring tide)         |  -0.150  |     0.204  |  -0.73  | 0.464   |      |
-| Age (juvenile) × Tide (spring tide)  |  -0.845  |     0.422  |  -2.00  | 0.047   |  *   |
+::::
 
-Sig. codes: *** p < 0.001; ** p < 0.01; * p < 0.05
-
-
-
-
-```{r}
-# glm(formula = mean_dist ~ sex * age + tide_strength * sex + tide_strength *
-#     age, family = Gamma(link = "log"), data = paired_centroids_all_dt)
-#
-
-
-#
-# > summary(m_all_chasse_gamma14)
-#
-# Call:
-# glm(formula = mean_dist ~ sex + month_numeric, family = Gamma(link = "log"),
-#     data = paired_centroids_all_chasse_dt)
-#
-# Coefficients:
-#                Estimate Std. Error t value             Pr(>|t|)
-# (Intercept)      8.3231     0.1345  61.873 < 0.0000000000000002 ***
-# sexM            -0.9826     0.1648  -5.964           0.00000442 ***
-# month_numeric2   0.4823     0.1314   3.670              0.00127 **
-# ---
-# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-#
-# (Dispersion parameter for Gamma family taken to be 0.09047683)
-#
-#     Null deviance: 5.7957  on 25  degrees of freedom
-# Residual deviance: 2.3266  on 23  degrees of freedom
-# AIC: 419.23
-#
-# Number of Fisher Scoring iterations: 4
-```
-
-
-
-
-## Hunting avoidance behavior {.smaller}  
-
-##### Hunting on public maritime land 
+## Hunting avoidance behavior on the public maritime land {.smaller}  
 
 ::: {#fig-Photo_intro}
 ```{r}
@@ -515,9 +471,7 @@ knitr::include_graphics("Photo archives Marc Demeure - VDNPQR.jpg", dpi = 200)
 Hunters on the public maritime land (photo : Marc Demeure, VDNPQR)
 :::
 
-## Hunting avoidance behavior {.smaller}
-
-##### Hunting on public maritime land
+## Hunting avoidance behavior on the public maritime land {.smaller}  
 
 ::: {#fig-UDMap_roosting_A}
 ```{r}
@@ -533,9 +487,7 @@ tags$iframe(
 Foraging area during (orange) and out (grey) the hunting season (winter).
 :::
 
-## Hunting avoidance behavior {.smaller data-visibility="uncounted"}
-
-##### Hunting on public maritime land
+## Hunting avoidance behavior on the public maritime land {.smaller}  
 
 ::: {#fig-UDMap_roosting_A}
 ```{r}
@@ -551,15 +503,41 @@ tags$iframe(
 Roosting area during (purple) and out (grey) the hunting season (winter).
 :::
 
-## Hunting avoidance behavior {.smaller}
+## Hunting avoidance behavior from underground-cabin {.smaller}  
 
-##### Hunting on public maritime land
+:::: {.columns style="display:flex; align-items:center; gap:3em;"}
 
-Conclusion intermediaire
+::: {.column width="50%"}
 
-## Hunting avoidance behavior {.smaller}  
+::: {#fig-pred_all_chasse_plot.png}
+```{r}
+#| echo: false
+#| out.width: 90%
+#| fig-align: "center"
+knitr::include_graphics("pred_all_chasse_plot.png", dpi = 100)
+```
 
-##### Hunting from underground-cabin
+Individual mean roosting-foraging distance (+/- standard error) as a function of sex and hunting.
+:::
+::: 
+
+::: {.column width="50%"}
+
+<div style="text-align:center; font-size:0.7em">
+| Effect                               | Est. | SE | p-val |
+|--------------------------------------|-----:|---:|------:|
+| **Intercept**                            |8.323  |0.135 |**<0.001**|
+| Sex (M)                              |-0.983 |0.165 |**<0.001**  |
+| **Hunting (forbidden)**                   | 0.482 |0.131  |**0.001**   |     
+
+GLM, link function: Gamma (log).
+</div>
+
+::: 
+
+::::
+
+## Hunting avoidance behavior from underground-cabin {.smaller}  
 
 ::: {#fig-Photo_intro}
 ```{r}
@@ -570,9 +548,7 @@ knitr::include_graphics("Une_tonne_de_chasse_au_gibier_d'eau.jpg", dpi = 200)
 Underground hunting cabin.
 :::
 
-## Hunting avoidance behavior {.smaller}
-
-##### Hunting from underground-cabin
+## Hunting avoidance behavior from underground-cabin {.smaller}  
 
 ::: {#fig-UDMap_roosting_A}
 ```{r}
@@ -588,9 +564,7 @@ tags$iframe(
 Hunting cabins (black points).
 :::
 
-## Hunting avoidance behavior {.smaller data-visibility="uncounted"}
-
-##### Hunting from underground-cabin
+## Hunting avoidance behavior from underground-cabin {.smaller data-visibility="uncounted"}
 
 ::: {#fig-UDMap_roosting_A}
 ```{r}
@@ -606,13 +580,12 @@ tags$iframe(
 Hunting cabins (black points), danger zone (300 m, red), marginal zone (1500 m, yellow).
 :::
 
-## Hunting avoidance behavior {.smaller}
+## Hunting avoidance behavior from underground-cabin {.smaller}  
 
-##### Hunting from underground-cabin
-
-:::: {.columns}
+:::: {.columns style="display:flex; align-items:center; gap:3em;"}
 
 ::: {.column width="50%"}
+
 ::: {#fig-RNN_photo_3}
 ```{r}
 #| echo: false
@@ -625,15 +598,7 @@ Generalized linear mixed model (GLMM, package glmmTMB, link function Gamma).
 
 ::: {.column width="50%"}
 
-<br/> <!---
-blank line, saut de ligne
--->
-
 Birds are more often in the maginal than the danger zone
-
-<br/> <!---
-blank line, saut de ligne
--->
 
 They moove toward the studied zone when the hunting is allowed, 
 
@@ -646,36 +611,8 @@ blank line, saut de ligne
 ***Birds seems to avoid hunting cabins***
 
 :::
+
 ::::
-
-## Hunting avoidance behavior {.smaller}
-
-##### Hunting from underground-cabin
-
-Conclusion intermediaire
-
-> summary(m_all_chasse_gamma14)
-
-Call:
-glm(formula = mean_dist ~ sex + month_numeric, family = Gamma(link = "log"), 
-    data = paired_centroids_all_chasse_dt)
-
-Coefficients:
-               Estimate Std. Error t value             Pr(>|t|)    
-(Intercept)      8.3231     0.1345  61.873 < 0.0000000000000002 ***
-sexM            -0.9826     0.1648  -5.964           0.00000442 ***
-month_numeric2   0.4823     0.1314   3.670              0.00127 ** 
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-(Dispersion parameter for Gamma family taken to be 0.09047683)
-
-    Null deviance: 5.7957  on 25  degrees of freedom
-Residual deviance: 2.3266  on 23  degrees of freedom
-AIC: 419.23
-
-Number of Fisher Scoring iterations: 4
-
 
 ## Critical roosting and feeding zone {.smaller} 
 
@@ -704,7 +641,9 @@ PLus d'ind
 ## Collaborators and fundings {.smaller} 
 
 :::: {.columns}
+
 ::: {.column width="50%"}
+
 ::: {.mytext style="line-height:0.7;"}
 Statistical and spatial analyses: 
 
