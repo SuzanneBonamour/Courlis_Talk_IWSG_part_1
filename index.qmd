@@ -223,6 +223,8 @@ Main used area estimated with Utilization Distribution (UD) function and the ker
 The bandwidth parameter *h* has been fixed for each analyses as the half the estimated Silverman rules values (depending on the variance in latitude and longitude locations) for a fine-grained scale details (functions <span style="font-family:'Courier New', Courier, monospace;">kernelUD</span> and <span style="font-family:'Courier New', Courier, monospace;">getverticeshr</span> from the R package "adehabitatHR", Calenge 2006, and see Worton, 1995)
 </div>
 
+Random sampling of 1000 GPS points per individual per categories. 
+
 ## Foraging area {.smaller}
 
 The foraging areas are estimated using Utilization distribution kernel function on the foraging points of all the individuals.
@@ -433,6 +435,73 @@ knitr::include_graphics("distance_roost_forag_allvar_plot_talk.png", dpi = 100)
 Individual mean roosting-foraging distance (+/- standard error) as a function of sex age and the tide height.
 :::
 
+## Roosting-foraging distance {.smaller}
+
+::: {#fig-pred_all_plot.png}
+```{r}
+#| echo: false
+#| out.width: 90%
+#| fig-align: "center"
+knitr::include_graphics("pred_all_plot.png", dpi = 100)
+```
+
+Individual mean roosting-foraging distance (+/- standard error) as a function of sex, age and the tide.
+:::
+
+## Roosting-foraging distance {.smaller}
+
+
+oinqonozn
+
+
+| Effect                               | Estimate | Std. Error | t value | p-value | Sig. |
+|--------------------------------------|---------:|-----------:|--------:|--------:|:----:|
+| Intercept                            |   8.157  |     0.126  |  64.79  | <0.001  | ***  |
+| Sex (M)                              |  -0.087  |     0.144  |  -0.60  | 0.549   |      |
+| Age (juvenile)                       |  -0.052  |     0.297  |  -0.17  | 0.862   |      |
+| Tide (spring tide)                   |   0.028  |     0.179  |   0.16  | 0.877   |      |
+| Sex (M) × Age (juvenile)             |   1.083  |     0.423  |   2.56  | 0.011   |  *   |
+| Sex (M) × Tide (spring tide)         |  -0.150  |     0.204  |  -0.73  | 0.464   |      |
+| Age (juvenile) × Tide (spring tide)  |  -0.845  |     0.422  |  -2.00  | 0.047   |  *   |
+
+Sig. codes: *** p < 0.001; ** p < 0.01; * p < 0.05
+
+
+
+
+```{r}
+# glm(formula = mean_dist ~ sex * age + tide_strength * sex + tide_strength *
+#     age, family = Gamma(link = "log"), data = paired_centroids_all_dt)
+#
+
+
+#
+# > summary(m_all_chasse_gamma14)
+#
+# Call:
+# glm(formula = mean_dist ~ sex + month_numeric, family = Gamma(link = "log"),
+#     data = paired_centroids_all_chasse_dt)
+#
+# Coefficients:
+#                Estimate Std. Error t value             Pr(>|t|)
+# (Intercept)      8.3231     0.1345  61.873 < 0.0000000000000002 ***
+# sexM            -0.9826     0.1648  -5.964           0.00000442 ***
+# month_numeric2   0.4823     0.1314   3.670              0.00127 **
+# ---
+# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+#
+# (Dispersion parameter for Gamma family taken to be 0.09047683)
+#
+#     Null deviance: 5.7957  on 25  degrees of freedom
+# Residual deviance: 2.3266  on 23  degrees of freedom
+# AIC: 419.23
+#
+# Number of Fisher Scoring iterations: 4
+```
+
+
+
+
 ## Hunting avoidance behavior {.smaller}  
 
 ##### Hunting on public maritime land 
@@ -584,6 +653,29 @@ blank line, saut de ligne
 ##### Hunting from underground-cabin
 
 Conclusion intermediaire
+
+> summary(m_all_chasse_gamma14)
+
+Call:
+glm(formula = mean_dist ~ sex + month_numeric, family = Gamma(link = "log"), 
+    data = paired_centroids_all_chasse_dt)
+
+Coefficients:
+               Estimate Std. Error t value             Pr(>|t|)    
+(Intercept)      8.3231     0.1345  61.873 < 0.0000000000000002 ***
+sexM            -0.9826     0.1648  -5.964           0.00000442 ***
+month_numeric2   0.4823     0.1314   3.670              0.00127 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Gamma family taken to be 0.09047683)
+
+    Null deviance: 5.7957  on 25  degrees of freedom
+Residual deviance: 2.3266  on 23  degrees of freedom
+AIC: 419.23
+
+Number of Fisher Scoring iterations: 4
+
 
 ## Critical roosting and feeding zone {.smaller} 
 
