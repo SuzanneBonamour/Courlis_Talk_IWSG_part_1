@@ -9,48 +9,47 @@ format:
   revealjs:
     fontsize: 2.5em 
     embed-resources: true
-    include-in-header: |
-      text: |
-        <style>
-        .center-y40 {
-          margin: 0;
-          position: absolute;
-          top: 40%;
-          left: 0%;
-          -ms-transform: translateY(-50%), translateX(-50%);
-          transform: translateY(-50%), translateX(-50%);
-        }
-        </style>
-        <style>
-        .center-y30 {
-          margin: 0;
-          position: absolute;
-          top: 30%;
-          left: 0%;
-          -ms-transform: translateY(-50%), translateX(-50%);
-          transform: translateY(-50%), translateX(-50%);
-        }
-        </style>
-        <style>
-        .center-y20 {
-          margin: 0;
-          position: absolute;
-          top: 20%;
-          left: 0%;
-          -ms-transform: translateY(-50%), translateX(-50%);
-          transform: translateY(-50%), translateX(-50%);
-        }
-        </style>
-        <style>
-        .center-x20y20 {
-          margin: 0;
-          position: absolute;
-          top: 20%;
-          left: 15%;
-          -ms-transform: translateY(-50%), translateX(-50%);
-          transform: translateY(-50%), translateX(-50%);
-        }
-        </style>
+    header-includes: |
+      <style>
+      .center-y40 {
+        margin: 0;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        -ms-transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-50%) translateX(-50%);
+      }
+      </style>
+      <style>
+      .center-y30 {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        -ms-transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-50%) translateX(-50%);
+      }
+      </style>
+      <style>
+      .center-y20 {
+        margin: 0;
+        position: absolute;
+        top: 20%;
+        left: 0%;
+        -ms-transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-50%) translateX(-50%);
+      }
+      </style>
+      <style>
+      .center-x40y20 {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        -ms-transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-50%) translateX(-50%);
+      }
+      </style>
     theme: default
     slide-number: true
     logo: httpsfavpng.com.png
@@ -181,7 +180,7 @@ knitr::include_graphics("emission_plot_talk.png", dpi = 100)
 GPS tracking period for each indivdual
 :::
 
-::: {.center-x20y20}
+::: {.center-x40y20}
 ::: {.mytext style="line-height:0.7;"}
 <div style="font-size:60%; color:gray;">
 80 individuals
@@ -273,13 +272,22 @@ Roosting Curlew (photo: Photo: Laurie Campbell).
 
 ##### Methods
 
-Main used area estimated with Utilization Distribution (UD) function and the kernel method.
+Main used area estimated with **Utilization Distribution (UD)** function and the **kernel** method.
+
+**Random sampling** of 1000 GPS points per individual per categories. 
 
 <div style="font-size:60%; color:gray;">
-The bandwidth parameter *h* has been fixed for each analyses as the half the estimated Silverman rules values (depending on the variance in latitude and longitude locations) for a fine-grained scale details (functions <span style="font-family:'Courier New', Courier, monospace;">kernelUD</span> and <span style="font-family:'Courier New', Courier, monospace;">getverticeshr</span> from the R package "adehabitatHR", Calenge 2006, and see Worton, 1995)
+The bandwidth parameter *h* = half the estimated Silverman rules values for a fine-grained scale details (functions <span style="font-family:'Courier New', Courier, monospace;">kernelUD</span> and <span style="font-family:'Courier New', Courier, monospace;">getverticeshr</span> from the R package "adehabitatHR", Calenge 2006, and see Worton, 1995)
 </div>
 
-Random sampling of 1000 GPS points per individual per categories. 
+::: {#fig-Photo_intro}
+```{r}
+#| echo: false
+knitr::include_graphics("kernel_schema.png", dpi = 200)
+```
+
+An example of a kernel utilization distribution analysis (modified from Millspaugh et al. 2000 & 2010).
+:::
 
 ## Foraging area {.smaller}
 
