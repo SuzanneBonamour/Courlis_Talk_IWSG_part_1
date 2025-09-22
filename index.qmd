@@ -178,45 +178,82 @@ GPS tracking period for each indivdual
 :::
 :::
 
-## Behaviors attribution - Methods {.smaller}
+## Behaviors attribution{.smaller}
 
-::: {.center-y20}
+##### Methods
 
-The GPS recorded points are associated with a behaviors : 
-
-foraging, roosting and other.
-
-<br/> <!---
-blank line, saut de ligne
--->
-
-
-Foraging: 
-
-a stationary point 2h before or after a low tide.
+The GPS recorded points are associated with a behaviors : foraging, roosting and other.
 
 <br/>
 
-Roosting: 
+:::: {.columns style="display:flex; gap:3em;"}
 
-a stationary point 2h before or after a high tide. 
+::: {.column width="50%"}
+
+Foraging:
+
+1) movement filter (stationary, ≤ 1 km/h)
+
+2) time filter (2h before/after a low tide)
+
+::: 
+
+::: {.column width="50%"}
+
+::: {#fig-Photo_intro}
+```{r}
+#| echo: false
+knitr::include_graphics("Foraging_Tareq Uddin Ahmed.png", dpi = 200)
+```
+
+Foraging Curlew (photo: Photo: Tareq Uddin Ahmed).
 :::
 
-<div class="absolute" style="top:200px; left:700px; width:315px; text-align:left;">
-  <figure>
-    <img src="Foraging_Tareq Uddin Ahmed.png" width="315" height="230">
-    <figcaption style="font-size:0.4em; color:#999"> Photo: Tareq Uddin Ahmed</figcaption>
-  </figure>
-</div>
+:::
 
-<div class="absolute" style="top:370px; left:850px; width:315px; text-align:left;">
-  <figure>
-    <img src="roosting_Laurie Campbell.jpg" width="315" height="230">
-    <figcaption style="font-size:0.4em; color:#999"> Photo: Laurie Campbell</figcaption>
-  </figure>
-</div>
+::::
 
-## Space use analyses - Methods {.smaller}
+## Behaviors attribution{.smaller}
+
+##### Methods
+
+The GPS recorded points are associated with a behaviors : foraging, roosting and other.
+
+<br/>
+
+:::: {.columns style="display:flex; gap:3em;"}
+
+::: {.column width="50%"}
+
+Roosting:
+
+1) movement filter (stationary, ≤ 1 km/h)
+
+2) time filter (2h before/after a low tide)
+
+3) bathymetry filter (above the lowest astronomical tide threshold)
+
+4) habitat filter (outside the intertidal zone)
+
+::: 
+
+::: {.column width="50%"}
+
+::: {#fig-Photo_intro}
+```{r}
+#| echo: false
+knitr::include_graphics("roosting_Laurie Campbell.jpg", dpi = 200)
+```
+
+Roosting Curlew (photo: Photo: Laurie Campbell).
+::: 
+:::
+::::
+
+
+## Space use analyses {.smaller}
+
+##### Methods
 
 Main used area estimated with Utilization Distribution (UD) function and the kernel method.
 
@@ -227,6 +264,8 @@ The bandwidth parameter *h* has been fixed for each analyses as the half the est
 Random sampling of 1000 GPS points per individual per categories. 
 
 ## Foraging area {.smaller}
+
+##### Results
 
 The foraging areas are estimated using Utilization distribution kernel function on the foraging points of all the individuals.
 
@@ -281,6 +320,8 @@ Foraging zone C
 ::::::
 
 ## Roosting area {.smaller} 
+
+##### Results 
 
 The roosting areas are estimated using Utilization distribution kernel function on the roosting points of all the individuals.
 
