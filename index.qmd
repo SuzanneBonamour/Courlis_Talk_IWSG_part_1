@@ -69,32 +69,6 @@ knitr::include_graphics("20230703_Survol drone RNNMO continent_Romain Beaubert L
 The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain Beaubert, LPO).
 :::
 
-## Studied systems {.smaller data-visibility="uncounted"}
-
-##### The Moëze-Oléron National Nature Reserve
-
-::: {#fig-RNN_photo_1}
-```{r}
-#| echo: false
-knitr::include_graphics("RNN_photo_1.png", dpi = 200)
-```
-
-The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain Beaubert, LPO).
-:::
-
-## Studied systems {.smaller data-visibility="uncounted"}
-
-##### The Moëze-Oléron National Nature Reserve
-
-::: {#fig-RNN_photo_3}
-```{r}
-#| echo: false
-knitr::include_graphics("RNN_photo_3.png", dpi = 200)
-```
-
-The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain Beaubert, LPO).
-:::
-
 ## Studied systems {.smaller}
 
 ##### The Eurasian curlew
@@ -124,12 +98,56 @@ GPS equipment on an Eurasian curlew (photo: Loic Jomat, LPO).
 
 ## Objectives of the study {.smaller}
 
-::: {.center-y40}
+Understand how the Eurasian curlew uses space in a functional site comprising the Marennes basin and the Brouage marshes, in a context **maritimization** and strong **hunting** pressures. 
 
-Identify and propose local priority areas to be preserved for the protection of wading birds, as the Eurasian curlew as flagship species.
+Identify local **priority areas** to be preserved for the protection of **wading birds**, as the Eurasian curlew as flagship species.
 
-Understand how the Eurasian curlew uses space in a functional site comprising the Marennes basin and the Brouage marshes, in a context maritimization and strong anthropogenic pressures (hunting, shellfish gathering, oyster farming). 
+::: {#fig-RNN_photo_3}
+```{r}
+#| echo: false
+knitr::include_graphics("RNN_Moëze_Oléron_-_img_48656(1).jpg", dpi = 300)
+```
 
+The Moëze-Oléron National Nature Reserve (photo: Pmau).
+:::
+
+## Studied systems {.smaller data-visibility="uncounted"}
+
+##### The Moëze-Oléron National Nature Reserve
+
+::: {#fig-RNN_photo_1}
+```{r}
+#| echo: false
+knitr::include_graphics("RNN_photo_1.png", dpi = 200)
+```
+
+The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain Beaubert, LPO).
+:::
+
+## Studied systems {.smaller data-visibility="uncounted"}
+
+##### The Moëze-Oléron National Nature Reserve
+
+::: {#fig-RNN_photo_3}
+```{r}
+#| echo: false
+knitr::include_graphics("RNN_photo_3.png", dpi = 200)
+```
+
+The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain Beaubert, LPO).
+:::
+
+## Studied systems {.smaller data-visibility="uncounted"}
+
+##### The Moëze-Oléron National Nature Reserve
+
+::: {#fig-RNN_photo_4}
+```{r}
+#| echo: false
+knitr::include_graphics("RNN_photo_4.png", dpi = 200)
+```
+
+The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain Beaubert, LPO).
 :::
 
 ## Studied area {.smaller}
