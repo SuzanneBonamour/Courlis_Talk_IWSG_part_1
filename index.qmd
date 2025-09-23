@@ -66,8 +66,6 @@ format:
 
 ## Studied systems {.smaller}
 
-##### The Moëze-Oléron National Nature Reserve
-
 <br/>
 
 :::: {.columns style="display:flex; align-items:center; gap:0em;"}
@@ -75,7 +73,8 @@ format:
 ::: {#fig-Photo_intro}
 ```{r}
 #| echo: false
-knitr::include_graphics("20230703_Survol drone RNNMO continent_Romain Beaubert LPO (11).jpg", dpi = 100)
+#| out.height: "400px"
+knitr::include_graphics("20230703_Survol drone RNNMO continent_Romain Beaubert LPO (11).jpg")
 ```
 
 The Moëze-Oléron National Nature Reserve on the mainland side 
@@ -87,42 +86,27 @@ The Moëze-Oléron National Nature Reserve on the mainland side
 ::: {#fig-Photo_intro}
 ```{r}
 #| echo: false
-knitr::include_graphics("no mig.jpg", dpi = 100)
+#| out.height: "400px"
+knitr::include_graphics("2-Courlis cendré - Photo Armel Deniau LPO.jpg")
 ```
 
-The fonctional site around the Nature Reserve
+A colour ringed Eurasian Curlew (<em>Numenius arquata</em>) 
+<span style="font-size:60%; color:gray;">(photo: Armel Deniau, LPO)</span>
 :::
 :::
 ::::
 
 ## Studied systems {.smaller}
 
-##### The Eurasian curlew
+<br/>
 
 ::: {#fig-Photo_intro}
 ```{r}
 #| echo: false
-knitr::include_graphics("2-Courlis cendré - Photo Armel Deniau LPO.jpg", dpi = 200)
+knitr::include_graphics("no legend 2.jpg", dpi = 100)
 ```
 
-Eurasian curlew (<em>Numenius arquata</em>)
-<span style="font-size:60%; color:gray;">(photo: Armel Deniau, LPO)</span>
-:::
-
-
-## Studied systems {.smaller}
-
-##### The GPS tracking
-
-::: {#fig-Photo_intro}
-```{r}
-#| echo: false
-knitr::include_graphics("3-Equipement GPS courlis cendré-Photo Loic Jomat - LPÖ.jpg", dpi = 200)
-```
-
-GPS equipment on an Eurasian curlew
-<span style="font-size:60%; color:gray;">(photo: Loic Jomat, LPO)</span>
-
+The functional site around the Moëze-Oléron National Nature Reserve
 :::
 
 ## Objectives of the study {.smaller}
