@@ -289,20 +289,6 @@ The GPS recorded points are associated with a behaviors : foraging, roosting and
 
 ::: {.column width="50%"}
 
-Roosting:
-
-1) movement filter (stationary, ≤ 1 km/h)
-
-2) time filter (2h before/after a low tide)
-
-3) bathymetry filter (above the lowest astronomical tide threshold)
-
-4) habitat filter (outside the intertidal zone)
-
-::: 
-
-::: {.column width="50%"}
-
 ::: {#fig-Photo_intro}
 ```{r}
 #| echo: false
@@ -314,6 +300,21 @@ Roosting Curlew
 <span style="font-size:60%; color:gray;">(photo: aurie Campbell)</span>
 
 ::: 
+
+::: 
+
+::: {.column width="50%"}
+
+Roosting:
+
+1) movement filter (stationary, ≤ 1 km/h)
+
+2) time filter (2h before/after a low tide)
+
+3) bathymetry filter (above the lowest astronomical tide threshold)
+
+4) habitat filter (outside the intertidal zone)
+
 :::
 ::::
 
