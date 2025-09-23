@@ -332,7 +332,7 @@ Zone C
 :::
 ::::
 
-## Roosting area {.smaller} 
+## Roosting ans foraging areas {.smaller}
 
 ##### Roosting - Results 
 
@@ -382,7 +382,7 @@ Zone B
 tags$iframe(
   src = "UDMap_make_kud_sampled_Roosting_C.html",
   width = "100%",
-  height = "350px"
+  height = "400px"
 )
 ```
 Zone C
@@ -463,7 +463,7 @@ The **mean distance** between the **foraging and roosting** areas of each indivi
 knitr::include_graphics("distance_schema_geoportail_3.png", dpi = 100)
 ```
 
-Estimating mean distance etween roosting and foraging areas for each individual.
+Estimating mean distance between roosting and foraging areas for each individual.
 :::
 
 ## Roosting-foraging distance {.smaller data-visibility="uncounted"}
@@ -482,7 +482,7 @@ The **mean distance** between the **foraging and roosting** areas of each indivi
 knitr::include_graphics("distance_schema_geoportail_4.png", dpi = 100)
 ```
 
-Estimating mean distance (+/- standard error) between roosting and foraging areas for each individual.
+Estimating mean distance between roosting and foraging areas for each individual.
 :::
 
 ## Roosting-foraging distance {.smaller} 
@@ -700,10 +700,7 @@ Hunting cabins (black points), danger zone (300 m, red), marginal zone (1500 m, 
 knitr::include_graphics("preds_heure_chasse_plot.png", dpi = 200)
 ```
 
-Generalized linear mixed model
-
-<span style="font-size:60%; color:gray;">(GLMM, package glmmTMB, link function Gamma)</span>
-
+Generalized linear mixed model <span style="font-size:60%; color:gray;">(GLMM, package glmmTMB, link function Gamma)</span>
 :::
 :::
 
