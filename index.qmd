@@ -1,10 +1,14 @@
 ---
 title: "From Shorelines to Marshlands: Exploring Curlew Journeys near Moëze-Oléron"
 title-slide-attributes:
-  data-background-image: gros-plan-d-un-jeune-courlis-avec-son-long-bec-elance-marchant-sur-le-rivage.jpg
+  data-background-image: 20170226-Großer_Brachvogel.jpg
   data-background-size: cover
-  data-background-opacity: "0.9"
+  data-background-opacity: "0.7"
 author: "**Suzanne BONAMOUR**, Gwenaël QUINTENNE, Pierre ROUSSEAU, Loïc JOMAT, Pierrick BOCHER, Frédérique JIGUET, Adrien CHAIGNE"
+subtitle: |
+  <div style="position: absolute; top: -50px; left: -230px; font-size: 0.4em; color: gray; opacity: 0.6;">
+  Photo : Großer Brachvogel
+  </div>
 format:
   revealjs:
     fontsize: 2.5em 
@@ -711,7 +715,7 @@ Best model :
 ```{r}
 #| echo: false
 #| out.width: "600px"
-knitr::include_graphics("20170226-Großer_Brachvogel.jpg", dpi = 200)
+knitr::include_graphics("Réserve Naturelle Baie de Saint-Brieuc.png", dpi = 200)
 ```
 
 Flying Curlews <span style="font-size:60%; color:gray;">(photo: Großer_Brachvogel)</span>
