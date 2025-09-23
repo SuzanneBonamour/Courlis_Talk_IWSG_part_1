@@ -68,6 +68,10 @@ format:
 
 ##### The Moëze-Oléron National Nature Reserve
 
+<br/>
+
+:::: {.columns style="display:flex; align-items:center; gap:0em;"}
+::: {.column width="50%"}
 ::: {#fig-Photo_intro}
 ```{r}
 #| echo: false
@@ -77,6 +81,19 @@ knitr::include_graphics("20230703_Survol drone RNNMO continent_Romain Beaubert L
 The Moëze-Oléron National Nature Reserve on the mainland side 
 <span style="font-size:60%; color:gray;">(photo: Romain Beaubert, LPO)</span>
 :::
+:::
+
+::: {.column width="50%"}
+::: {#fig-Photo_intro}
+```{r}
+#| echo: false
+knitr::include_graphics("no mig.jpg", dpi = 100)
+```
+
+The fonctional site around the Nature Reserve
+:::
+:::
+::::
 
 ## Studied systems {.smaller}
 
@@ -196,7 +213,7 @@ tags$iframe(
 Studied area split into three main zones A, B and C. The red pin is the fieldwork station.
 :::
 
-## Roosting ans foraging areas {.smaller}
+## Roosting and foraging areas {.smaller}
 
 ##### Methods
 
@@ -240,7 +257,7 @@ Foraging Curlew
 
 ::::
 
-## Roosting ans foraging areas {.smaller data-visibility="uncounted"}
+## Roosting and foraging areas {.smaller data-visibility="uncounted"}
 
 ##### Methods
 
@@ -279,7 +296,7 @@ Foraging Curlew
 
 ::::
 
-## Roosting ans foraging areas {.smaller}
+## Roosting and foraging areas {.smaller}
 
 ##### Methods
 
@@ -322,7 +339,7 @@ Roosting:
 :::
 ::::
 
-## Roosting ans foraging areas {.smaller}
+## Roosting and foraging areas {.smaller}
 
 ##### Foraging - Results 
 
@@ -381,7 +398,7 @@ Zone C
 :::
 ::::
 
-## Roosting ans foraging areas {.smaller}
+## Roosting and foraging areas {.smaller}
 
 ##### Roosting - Results 
 
@@ -437,6 +454,44 @@ tags$iframe(
 Zone C
 :::
 :::
+::::
+
+## Roosting and foraging areas fluctuating with tide and submersions {.smaller}
+
+##### Results
+
+:::: {.columns style="display:flex; align-items:center; gap:0em;"}
+::: {.column width="50%"}
+::: {#fig-UDMap_roosting_A}
+```{r}
+#| echo: false
+
+tags$iframe(
+  src = "UDMap_make_kud_sampled_Foraging_in_out_saison_B.html",
+  width = "100%",
+  height = "450px"
+)
+```
+
+Foraging area during (orange) and out (grey) the hunting season (winter) on the public maritime land.
+:::
+:::
+
+::: {.column width="50%"}
+::: {#fig-UDMap_roosting_A}
+```{r}
+#| echo: false
+
+tags$iframe(
+  src = "UDMap_make_kud_sampled_Roosting_in_out_saison_B.html",
+  width = "100%",
+  height = "450px"
+)
+```
+
+Roosting area during (purple) and out (grey) the hunting season (winter) on the public maritime land.
+:::
+::: 
 ::::
 
 ## Roosting-foraging distance {.smaller}
