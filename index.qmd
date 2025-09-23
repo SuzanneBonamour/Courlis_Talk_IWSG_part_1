@@ -202,6 +202,40 @@ The GPS recorded points are associated with a behaviors : foraging, roosting and
 
 <br/>
 
+:::: {.columns style="display:flex; gap:3em;"}
+
+::: {.column width="50%"}
+
+::: {#fig-Photo_intro}
+```{r}
+#| echo: false
+#| out.width: "600px"
+knitr::include_graphics("roosting_Laurie Campbell.jpg")
+```
+
+Roosting Curlew
+<span style="font-size:60%; color:gray;">(photo: aurie Campbell)</span>
+
+:::
+::: 
+
+::: {.column width="50%"}
+
+::: {#fig-Photo_intro}
+```{r}
+#| echo: false
+#| out.width: "600px"
+knitr::include_graphics("Pierre-Marie Epiney.png")
+```
+
+Foraging Curlew
+<span style="font-size:60%; color:gray;">(photo: Pierre-Marie Epiney)</span>
+:::
+
+:::
+
+::::
+
 ## Roosting ans foraging areas {.smaller data-visibility="uncounted"}
 
 ##### Methods
