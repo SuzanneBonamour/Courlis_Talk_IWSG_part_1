@@ -192,7 +192,7 @@ tags$iframe(
 Studied area split into three main zones A, B and C. The red pin is the fieldwork station.
 :::
 
-## Behaviors attribution {.smaller}
+## Roosting ans foraging areas {.smaller}
 
 ##### Methods
 
@@ -231,7 +231,7 @@ Foraging Curlew
 
 ::::
 
-## Behaviors attribution{.smaller}
+## Roosting ans foraging areas {.smaller}
 
 ##### Methods
 
@@ -273,35 +273,17 @@ Roosting Curlew
 :::
 ::::
 
+## Roosting ans foraging areas {.smaller}
 
-## Space use analyses {.smaller}
+##### Foraging - Results 
 
-##### Methods
+<div class="smaller">
 
-**Utilization Distribution (UD)** function and the **kernel** method
-
-<div style="font-size:60%; color:gray;">
-Bandwidth parameter *h* = half the estimated Silverman rules values ((fine-grained scale; functions <span style="font-family:'Courier New', Courier, monospace;">kernelUD</span> and <span style="font-family:'Courier New', Courier, monospace;">getverticeshr</span> from the R package "adehabitatHR", Calenge 2006 and Worton, 1995)
-</div>
-
-**Random sampling** of 1000 GPS points per individual per categories. 
-
-::: {#fig-Photo_intro}
-```{r}
-#| echo: false
-knitr::include_graphics("kernel_schema.png", dpi = 200)
-```
-
-An example of a kernel utilization distribution analysis
-<span style="font-size:60%; color:gray;">(modified from Millspaugh et al. 2000 & 2010)</span>
-
-:::
-
-## Foraging area {.smaller}
-
-##### Results 
+Utilization distribution and **kernel** analyses (<span style="font-family:'Courier New', Courier, monospace;">kernelUD</span> R package 'adehabitatHR', Calenge 2006 and Worton, 1995) on randomly sampled up to 1000 GPS points per individual.
 
 Main area: 50% vertices in dark orange; larger area: 95% vertices in light orange
+
+</div>
 
 :::: {.columns style="display:flex; align-items:center; gap:0em;"}
 ::: {.column width="33%"}
@@ -312,10 +294,10 @@ Main area: 50% vertices in dark orange; larger area: 95% vertices in light orang
 tags$iframe(
   src = "UDMap_make_kud_sampled_Foraging_A.html",
   width = "100%",
-  height = "450px"
+  height = "400px"
 )
 ```
-Zone A
+Zone A: 
 :::
 :::
 
@@ -327,7 +309,7 @@ Zone A
 tags$iframe(
   src = "UDMap_make_kud_sampled_Foraging_B.html",
   width = "100%",
-  height = "450px"
+  height = "400px"
 )
 ```
 Zone B
@@ -342,7 +324,7 @@ Zone B
 tags$iframe(
   src = "UDMap_make_kud_sampled_Foraging_C.html",
   width = "100%",
-  height = "450px"
+  height = "400px"
 )
 ```
 Zone C
@@ -352,10 +334,15 @@ Zone C
 
 ## Roosting area {.smaller} 
 
-##### Results 
+##### Roosting - Results 
 
-Main area: 50% vertices in dark purple; larger area: 95% vertices in light purple
+<div class="smaller">
 
+Utilization distribution and **kernel** analyses (<span style="font-family:'Courier New', Courier, monospace;">kernelUD</span> R package 'adehabitatHR', Calenge 2006 and Worton, 1995) on randomly sampled up to 1000 GPS points per individual.
+
+Main area: 50% vertices in dark orange; larger area: 95% vertices in light orange
+
+</div>
 :::: {.columns style="display:flex; align-items:center; gap:0em;"}
 ::: {.column width="33%"}
 ::: {#fig-UDMap_roosting_A}
@@ -365,7 +352,7 @@ Main area: 50% vertices in dark purple; larger area: 95% vertices in light purpl
 tags$iframe(
   src = "UDMap_make_kud_sampled_Roosting_A.html",
   width = "100%",
-  height = "450px"
+  height = "400px"
 )
 ```
 Zone A
@@ -380,7 +367,7 @@ Zone A
 tags$iframe(
   src = "UDMap_make_kud_sampled_Roosting_B.html",
   width = "100%",
-  height = "450px"
+  height = "400px"
 )
 ```
 Zone B
@@ -395,7 +382,7 @@ Zone B
 tags$iframe(
   src = "UDMap_make_kud_sampled_Roosting_C.html",
   width = "100%",
-  height = "450px"
+  height = "350px"
 )
 ```
 Zone C
@@ -748,7 +735,7 @@ blank line, saut de ligne
 
 - **Restricted** population **surfaces** during the **hunting** season
 
-- Individual distance between roosting and foraging seems to vary according to 
+- Individual distance between roosting and foraging seems to vary:
 <div class="smaller">
   - **juvenile males go further away** to roost *vs* to feed
   - **male** stay **closer** to feed and roost when spring tide *vs* neap tide
