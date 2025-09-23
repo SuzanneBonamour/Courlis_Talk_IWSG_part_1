@@ -57,7 +57,7 @@ format:
       </style>
     theme: default
     slide-number: true
-    logo: httpsfavpng.com.png
+    logo: logo_talk_courlis.png
 ---
 
 ## Studied systems {.smaller}
@@ -752,7 +752,7 @@ blank line, saut de ligne
 <div class="smaller">
   - **juvenile males go further away** to roost *vs* to feed
   - **male** stay **closer** to feed and roost when spring tide *vs* neap tide
-  - birds **avoid hunting cabin** when hunters are allowed to shoot (at night)
+  - birds **avoid hunting cabins** when hunters are allowed to shoot (at night)
 </div>
   
 :::
@@ -775,19 +775,41 @@ Flying Curlews <span style="font-size:60%; color:gray;">(photo: Großer_Brachvog
   
 ## Some limits and drawbacks {.smaller} 
 
-- We (always) need more individuals, years and points 
+:::: {.columns style="display:flex; align-items:center; gap:1em;"}
+::: {.column width="50%"}
+
+- We (always ?) need more individuals, years and points 
 
 - It would have been very useful to have 
   - detailed data about hunting pressures
   - data about fishing and fishing pressures
   
-- Studying individual 3D movements to have access to detailed hunting avoidance behaviors as a next step ? 
+- Studying individual 3D movements to have access to detailed hunting/fishing avoidance behaviors ? 
+
+:::
+
+::: {.column width="50%"}
+
+::: {#fig-Brachvogel}
+```{r}
+#| echo: false
+#| out.width: "400px"
+knitr::include_graphics("Reijo Kylmänen.png", dpi = 200)
+```
+
+Ringed male Curlews <span style="font-size:60%; color:gray;">(photo: Reijo Kylmänen)</span>
+:::
+:::
+::::
 
 ## Key takeaways to better protect curlews... and other birds {.smaller}  
+
+<br/>
 
 **Extend** the natural **reserve**, especially toward **North** on the main land
 
 **Limit** the effects of **hunting** by : 
+
 1) reducing the **hours** during which hunting is **permitted**
 2) limiting the **density** of hunting **cabins** (especially in the immediate proximity of the nature reserve).
 
