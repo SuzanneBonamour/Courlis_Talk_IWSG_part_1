@@ -309,9 +309,9 @@ Roosting:
 
 1) movement filter (stationary, ≤ 1 km/h)
 
-2) time filter (2h before/after a low tide)
+2) time filter (2h before/after a high tide)
 
-3) bathymetry filter (above the lowest astronomical tide threshold)
+3) bathymetry filter (above the lowest astronomical high tide threshold)
 
 4) habitat filter (outside the intertidal zone)
 
@@ -342,7 +342,7 @@ tags$iframe(
   height = "400px"
 )
 ```
-Zone A: 
+Zone A
 :::
 :::
 
@@ -674,96 +674,13 @@ Best model :
 | Effect                               | Est. | SE | p-val |
 |--------------------------------------|-----:|---:|------:|
 | **Intercept**                            |8.323  |0.135 |**<0.001**|
-| Sex (M)                              |-0.983 |0.165 |**<0.001**  |
+| **Sex (M)**                              |-0.983 |0.165 |**<0.001**  |
 | **Hunting (forbidden)**                   | 0.482 |0.131  |**0.001**   |     
 
 <span style="font-size:80%; color:gray;">GLM, link function: Gamma (log)</span>
 </div>
 
 ::: 
-
-::::
-
-## Avoidance from hunting cabin {.smaller}  
-
-::: {#fig-Photo_intro}
-```{r}
-#| echo: false
-knitr::include_graphics("Une_tonne_de_chasse_au_gibier_d'eau.jpg", dpi = 200)
-```
-
-Underground hunting cabin.
-:::
-
-## Avoidance from hunting cabin {.smaller} 
-
-##### Methods
-
-::: {#fig-UDMap_roosting_A}
-```{r}
-#| echo: false
-
-tags$iframe(
-  src = "map_tonnes_v0.html",
-  width = "100%",
-  height = "500px"
-)
-```
-
-Hunting cabins (black points).
-:::
-
-## Avoidance from hunting cabin {.smaller data-visibility="uncounted"}
-
-##### Methods
-
-::: {#fig-UDMap_roosting_A}
-```{r}
-#| echo: false
-
-tags$iframe(
-  src = "map_tonnes_v2.html",
-  width = "100%",
-  height = "500px"
-)
-```
-
-Hunting cabins (black points), danger zone (300 m, red), marginal zone (1500 m, yellow).
-:::
-
-## Avoidance from hunting cabin {.smaller}  
-
-#### Results
-
-:::: {.columns style="display:flex; align-items:center; gap:3em;"}
-
-::: {.column width="50%"}
-
-::: {#fig-RNN_photo_3}
-```{r}
-#| echo: false
-knitr::include_graphics("preds_heure_chasse_plot.png", dpi = 200)
-```
-
-Generalized linear mixed model <span style="font-size:60%; color:gray;">(GLMM, package glmmTMB, link function Gamma)</span>
-:::
-:::
-
-::: {.column width="50%"}
-
-Birds are more often in the maginal than the danger zone
-
-They moove toward the studied zone when the hunting is allowed, 
-
-but choose more often the marginal zone than the danger zone 
-
-<br/> <!---
-blank line, saut de ligne
--->
-
-***Birds seems to avoid hunting cabins***
-
-:::
 
 ::::
 
@@ -781,7 +698,7 @@ blank line, saut de ligne
 <div class="smaller">
   - **juvenile males go further away** to roost *vs* to feed
   - **male** stay **closer** to feed and roost when spring tide *vs* neap tide
-  - birds **avoid hunting cabins** when hunters are allowed to shoot (at night)
+  - birds **avoid hunting huts** when hunters are allowed to shoot (at night)
 </div>
   
 :::
@@ -840,7 +757,7 @@ Ringed male Curlews <span style="font-size:60%; color:gray;">(photo: Reijo Kylm�
 **Limit** the effects of **hunting** by : 
 
 1) reducing the **hours** during which hunting is **permitted**
-2) limiting the **density** of hunting **cabins** (especially in the immediate proximity of the nature reserve).
+2) limiting the **density** of hunting **huts** (especially in the immediate proximity of the nature reserve).
 
 ::: {#fig-pred_all_plot.png}
 ```{r}
@@ -862,31 +779,35 @@ Plaisance Beach, Saint-Froult, France
 ::: {.column width="50%"}
 
 ::: {.mytext style="line-height:0.7;"}
-Statistical and spatial analyses: 
+**Statistical and spatial analyses**
 
 - Suzanne Bonamour [(LPO France)]{style="font-size:50%; color:gray;"}
 - Gwenael Quaintenne [(LPO France)]{style="font-size:50%; color:gray;"}
 
-Fieldwork: 
+**Fieldwork**
 
 - Pierre Rousseau [(RNN Moëze-Oléron)]{style="font-size:50%; color:gray;"}
 - Loïc Jomat [(RNN Moëze-Oléron)]{style="font-size:50%; color:gray;"}
-- Frédéric Jiguet [(RNN Moëze-Oléron)]{style="font-size:50%; color:gray;"}
-- Adrien Chaine [(RNN Moëze-Oléron)]{style="font-size:50%; color:gray;"}
+- Adrien Chaigne [(RNN Moëze-Oléron)]{style="font-size:50%; color:gray;"}
+- Pierrick Bocher [(Univ. La Rochelle)]{style="font-size:50%; color:gray;"}
+- Frédéric Jiguet [(MNHN, CESCO, Paris)]{style="font-size:50%; color:gray;"}
+- and many others!
+
 :::
 :::
 ::: {.column width="50%"}
 ::: {.mytext style="line-height:0.7;"}
-Fundraising: 
+**Fundraising** 
 
-- Adrien Chaine [(RNN Moëze-Oléron)]{style="font-size:50%; color:gray;"}
+- Adrien Chaigne [(RNN Moëze-Oléron)]{style="font-size:50%; color:gray;"}
 
-Scientific counselling: 
+**Scientific counselling**
 
 - Pierrick Bocher [(Univ. La Rochelle)]{style="font-size:50%; color:gray;"}
 - Frédérique Jiguet [(MNHN, CESCO, Paris)]{style="font-size:50%; color:gray;"}
+- Gwenael Quaintenne [(LPO France)]{style="font-size:50%; color:gray;"}
 
-Acknowledgements: 
+**Acknowledgements**
 
 - Anais Dasnon [(LPO France)]{style="font-size:50%; color:gray;"}
 
@@ -894,15 +815,20 @@ Acknowledgements:
 :::
 ::::
 
-![](lpo_logo.jpg){.absolute top=500 left=0 width="100" height="100"}
+![](lpo_logo.jpg){.absolute top=500 left=0 width="65" height="65"}
 
-![](reserve_logo.png){.absolute top=500 left=110 width="200" height="100"}
+![](reserve_logo.png){.absolute top=500 left=70 width="130" height="65"}
 
-![](MNHN-logo.jpg){.absolute top=500 left=310 width="95" height="100"}
+![](MNHN-logo.jpg){.absolute top=500 left=200 width="65" height="65"}
 
-![](logo_CESCO.png){.absolute top=500 left=420 width="240" height="100"}
+![](logo_CESCO.png){.absolute top=500 left=270 width="210" height="65"}
 
-![](Logo-Prefet-de-la-Region-Nouvelle-Aquitaine.png){.absolute top=500 left=670 width="180" height="100"}
+![](Logo-Prefet-de-la-Region-Nouvelle-Aquitaine.png){.absolute top=500 left=485 width="140" height="70"}
 
-![](Logo-FSE-UE-Region-Nouvelle-Aquitaine.png){.absolute top=500 left=850 width="220" height="100"}
+![](Logo-FSE-UE-Region-Nouvelle-Aquitaine.png){.absolute top=500 left=625 width="160" height="75"}
+
+![](LIENSs_transp1-e1485208828412.png){.absolute top=500 left=785 width="80" height="75"}
+
+![](fonds-vert_logo.png){.absolute top=500 left=860 width="120" height="75"}
+
 
