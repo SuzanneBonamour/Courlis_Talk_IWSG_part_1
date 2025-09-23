@@ -202,6 +202,16 @@ The GPS recorded points are associated with a behaviors : foraging, roosting and
 
 <br/>
 
+## Roosting ans foraging areas {.smaller data-visibility="uncounted"}
+
+##### Methods
+
+<br/>
+
+The GPS recorded points are associated with a behaviors : foraging, roosting and other.
+
+<br/>
+
 :::: {.columns style="display:flex; gap:3em;"}
 
 ::: {.column width="50%"}
