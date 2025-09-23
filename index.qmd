@@ -121,7 +121,7 @@ The Moëze-Oléron National Nature Reserve
 
 :::
 
-## Studied systems {.smaller data-visibility="uncounted"}
+## Studied systems {.smaller}
 
 ##### The Moëze-Oléron National Nature Reserve
 
