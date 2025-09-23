@@ -65,7 +65,8 @@ format:
 knitr::include_graphics("20230703_Survol drone RNNMO continent_Romain Beaubert LPO (11).jpg", dpi = 100)
 ```
 
-The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain Beaubert, LPO).
+The Moëze-Oléron National Nature Reserve on the mainland side 
+<span style="font-size:60%; color:gray;">(photo: Romain Beaubert, LPO)</span>
 :::
 
 ## Studied systems {.smaller}
@@ -78,7 +79,8 @@ The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain B
 knitr::include_graphics("2-Courlis cendré - Photo Armel Deniau LPO.jpg", dpi = 200)
 ```
 
-Eurasian curlew (<em>Numenius arquata</em>, photo: Armel Deniau, LPO).
+Eurasian curlew (<em>Numenius arquata</em>)
+<span style="font-size:60%; color:gray;">(photo: Armel Deniau, LPO)</span>
 :::
 
 
@@ -92,7 +94,9 @@ Eurasian curlew (<em>Numenius arquata</em>, photo: Armel Deniau, LPO).
 knitr::include_graphics("3-Equipement GPS courlis cendré-Photo Loic Jomat - LPÖ.jpg", dpi = 200)
 ```
 
-GPS equipment on an Eurasian curlew (photo: Loic Jomat, LPO).
+GPS equipment on an Eurasian curlew
+<span style="font-size:60%; color:gray;">(photo: Loic Jomat, LPO)</span>
+
 :::
 
 ## Objectives of the study {.smaller}
@@ -107,7 +111,9 @@ Identify local **priority areas** to be preserved for the protection of **wading
 knitr::include_graphics("RNN_Moëze_Oléron_-_img_48656(1).jpg", dpi = 300)
 ```
 
-The Moëze-Oléron National Nature Reserve (photo: Pmau).
+The Moëze-Oléron National Nature Reserve
+<span style="font-size:60%; color:gray;">(photo: Pmau)</span>
+
 :::
 
 ## Studied systems {.smaller data-visibility="uncounted"}
@@ -120,7 +126,9 @@ The Moëze-Oléron National Nature Reserve (photo: Pmau).
 knitr::include_graphics("RNN_photo_1.png", dpi = 200)
 ```
 
-The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain Beaubert, LPO).
+The Moëze-Oléron National Nature Reserve on the mainland side
+<span style="font-size:60%; color:gray;">(photo: Romain Beaubert, LPO)</span>
+
 :::
 
 ## Studied systems {.smaller data-visibility="uncounted"}
@@ -133,7 +141,9 @@ The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain B
 knitr::include_graphics("RNN_photo_3.png", dpi = 200)
 ```
 
-The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain Beaubert, LPO).
+The Moëze-Oléron National Nature Reserve on the mainland side 
+<span style="font-size:60%; color:gray;">(photo: Romain Beaubert, LPO)</span>
+
 :::
 
 ## Studied systems {.smaller data-visibility="uncounted"}
@@ -146,7 +156,9 @@ The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain B
 knitr::include_graphics("RNN_photo_4.png", dpi = 200)
 ```
 
-The Moëze-Oléron National Nature Reserve on the mainland side (photo: Romain Beaubert, LPO).
+The Moëze-Oléron National Nature Reserve on the mainland side 
+<span style="font-size:60%; color:gray;">(photo: Romain Beaubert, LPO)</span>
+
 :::
 
 ## Studied area {.smaller}
@@ -220,10 +232,12 @@ Foraging:
 ::: {#fig-Photo_intro}
 ```{r}
 #| echo: false
-knitr::include_graphics("Foraging_Tareq Uddin Ahmed.png", dpi = 200)
+#| out.width: "600px"
+knitr::include_graphics("Pierre-Marie Epiney.png")
 ```
 
-Foraging Curlew (photo: Photo: Tareq Uddin Ahmed).
+Foraging Curlew
+<span style="font-size:60%; color:gray;">(photo: Pierre-Marie Epiney)</span>
 :::
 
 :::
@@ -259,10 +273,13 @@ Roosting:
 ::: {#fig-Photo_intro}
 ```{r}
 #| echo: false
-knitr::include_graphics("roosting_Laurie Campbell.jpg", dpi = 200)
+#| out.width: "600px"
+knitr::include_graphics("roosting_Laurie Campbell.jpg")
 ```
 
-Roosting Curlew (photo: Photo: Laurie Campbell).
+Roosting Curlew
+<span style="font-size:60%; color:gray;">(photo: aurie Campbell)</span>
+
 ::: 
 :::
 ::::
@@ -286,14 +303,14 @@ The bandwidth parameter *h* = half the estimated Silverman rules values for a fi
 knitr::include_graphics("kernel_schema.png", dpi = 200)
 ```
 
-An example of a kernel utilization distribution analysis (modified from Millspaugh et al. 2000 & 2010).
+An example of a kernel utilization distribution analysis
+<span style="font-size:60%; color:gray;">(modified from Millspaugh et al. 2000 & 2010)</span>
+
 :::
 
 ## Foraging area {.smaller}
 
 ##### Results
-
-The foraging areas are estimated using Utilization distribution kernel function on the foraging points of all the individuals.
 
 :::::: panel-tabset
 ##### Zone A
@@ -349,8 +366,6 @@ Foraging zone C
 
 ##### Results 
 
-The roosting areas are estimated using Utilization distribution kernel function on the roosting points of all the individuals.
-
 :::::: panel-tabset
 ##### Zone A
 
@@ -405,7 +420,7 @@ Roosting zone C
 
 ##### Methods
 
-The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
+The **mean distance** between the **foraging and roosting** areas of each individual was estimated as the mean distance between pairs of **individual** geographic **centroids** for their foraging and roosting areas at **each tide** cycle.
 
 ::: {#fig-distance_roost_forag_allvar_plot}
 ```{r}
@@ -422,7 +437,7 @@ Estimating mean distance (+/- standard error) between roosting and foraging area
 
 ##### Methods
 
-The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
+The **mean distance** between the **foraging and roosting** areas of each individual was estimated as the mean distance between pairs of **individual** geographic **centroids** for their foraging and roosting areas at **each tide** cycle.
 
 ::: {#fig-distance_roost_forag_allvar_plot}
 ```{r}
@@ -439,7 +454,7 @@ Estimating mean distance (+/- standard error) between roosting and foraging area
 
 ##### Methods
 
-The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
+The **mean distance** between the **foraging and roosting** areas of each individual was estimated as the mean distance between pairs of **individual** geographic **centroids** for their foraging and roosting areas at **each tide** cycle.
 
 ::: {#fig-distance_roost_forag_allvar_plot}
 ```{r}
@@ -456,7 +471,7 @@ Estimating mean distance (+/- standard error) between roosting and foraging area
 
 ##### Methods
 
-The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
+The **mean distance** between the **foraging and roosting** areas of each individual was estimated as the mean distance between pairs of **individual** geographic **centroids** for their foraging and roosting areas at **each tide** cycle.
 
 ::: {#fig-distance_roost_forag_allvar_plot}
 ```{r}
@@ -473,7 +488,7 @@ Estimating mean distance (+/- standard error) between roosting and foraging area
 
 ##### Methods
 
-The mean distance between the foraging and roosting areas of each individual was estimated as the mean distance between pairs of individual geographic centroids for their foraging and roosting areas at each tide cycle.
+The **mean distance** between the **foraging and roosting** areas of each individual was estimated as the mean distance between pairs of **individual** geographic **centroids** for their foraging and roosting areas at **each tide** cycle.
 
 ::: {#fig-distance_roost_forag_allvar_plot}
 ```{r}
@@ -550,7 +565,9 @@ GLM, link function: Gamma (log).
 knitr::include_graphics("Photo archives Marc Demeure - VDNPQR.jpg", dpi = 200)
 ```
 
-Hunters on the public maritime land (photo : Marc Demeure, VDNPQR)
+Hunters on the public maritime land 
+<span style="font-size:60%; color:gray;">(photo : Marc Demeure, VDNPQR)</span>
+
 :::
 
 ## Avoidance from shore hunting {.smaller}  
@@ -686,7 +703,10 @@ Hunting cabins (black points), danger zone (300 m, red), marginal zone (1500 m, 
 knitr::include_graphics("preds_heure_chasse_plot.png", dpi = 200)
 ```
 
-Generalized linear mixed model (GLMM, package glmmTMB, link function Gamma).
+Generalized linear mixed model
+
+<span style="font-size:60%; color:gray;">(GLMM, package glmmTMB, link function Gamma)</span>
+
 :::
 :::
 
@@ -708,22 +728,6 @@ blank line, saut de ligne
 
 ::::
 
-## Critical roosting and feeding zone {.smaller} 
-
-::: {#fig-zone_critique_hotspot_map_final}
-```{r}
-#| echo: false
-
-tags$iframe(
-  src = "zone_critique_hotspot_map_final_2.html",
-  width = "100%",
-  height = "550px"
-)
-```
-
-Critical roosting (purple) and feeding (blue) zone, with darker grey with more individual using the area.
-:::
-
 ## To sum up {.smaller} 
 
 - Roosting and foraging areas highly variables among individuals
@@ -744,18 +748,26 @@ Critical roosting (purple) and feeding (blue) zone, with darker grey with more i
   
 - Studying individual 3D movements to have access to detailed hunting avoidance behaviors as a next step ? 
 
-## Key takeaways to better protect curlews... {.smaller}  
+## Key takeaways to better protect curlews... and other birds {.smaller}  
 
-##### ...and other wader birds
+**Extend** the natural **reserve**, especially toward **North** on the main land
 
-Regarding the main foraging and roosting areas, it would be desirable to work on an extension of the natural reserve, especially toward North on the main land
+**Limit** the effects of **hunting** by : 
+1) reducing the **hours** during which hunting is **permitted**
+2) limiting the **density** of hunting **cabins** (especially in the immediate proximity of the nature reserve).
 
-To limit anthropogenic pressure in the area, it would be very beneficial to limit the effects of hunting by: 
+::: {#fig-pred_all_plot.png}
+```{r}
+#| echo: false
+#| out.width: 90%
+#| fig-align: "center"
+knitr::include_graphics("Côté_de_beauté_banner.jpg", dpi = 100)
+```
 
-- reducing the hours during which hunting is permitted
-- limiting the density of hunting cabins (especially in the immediate proximity of the nature reserve).
+Plaisance Beach, Saint-Froult, France 
+<span style="font-size:60%; color:gray;">(photo : KiwiNeko14)</span>
 
-
+:::
 
 ## Collaborators and fundings {.smaller} 
 
