@@ -273,13 +273,13 @@ Roosting Curlew
 
 ##### Methods
 
-Main used area estimated with **Utilization Distribution (UD)** function and the **kernel** method.
-
-**Random sampling** of 1000 GPS points per individual per categories. 
+**Utilization Distribution (UD)** function and the **kernel** method
 
 <div style="font-size:60%; color:gray;">
-The bandwidth parameter *h* = half the estimated Silverman rules values for a fine-grained scale details (functions <span style="font-family:'Courier New', Courier, monospace;">kernelUD</span> and <span style="font-family:'Courier New', Courier, monospace;">getverticeshr</span> from the R package "adehabitatHR", Calenge 2006, and see Worton, 1995)
+Bandwidth parameter *h* = half the estimated Silverman rules values ((fine-grained scale; functions <span style="font-family:'Courier New', Courier, monospace;">kernelUD</span> and <span style="font-family:'Courier New', Courier, monospace;">getverticeshr</span> from the R package "adehabitatHR", Calenge 2006 and Worton, 1995)
 </div>
+
+**Random sampling** of 1000 GPS points per individual per categories. 
 
 ::: {#fig-Photo_intro}
 ```{r}
@@ -294,65 +294,65 @@ An example of a kernel utilization distribution analysis
 
 ## Foraging area {.smaller}
 
-##### Results
+##### Results 
 
-:::::: panel-tabset
-##### Zone A
+Main area: 50% vertices in dark orange; larger area: 95% vertices in light orange
 
-::: {#fig-UDMap_foraging_A}
+:::: {.columns style="display:flex; align-items:center; gap:0em;"}
+::: {.column width="33%"}
+::: {#fig-UDMap_Foraging_A}
 ```{r}
 #| echo: false
 
 tags$iframe(
   src = "UDMap_make_kud_sampled_Foraging_A.html",
   width = "100%",
-  height = "400px"
+  height = "450px"
 )
 ```
-
-Foraging zone A
+Zone A
+:::
 :::
 
-##### Zone B
-
-::: {#fig-UDMap_foraging_B}
+::: {.column width="33%"}
+::: {#fig-UDMap_Foraging_B}
 ```{r}
 #| echo: false
 
 tags$iframe(
   src = "UDMap_make_kud_sampled_Foraging_B.html",
   width = "100%",
-  height = "400px"
+  height = "450px"
 )
 ```
-
-Foraging zone B
+Zone B
+:::
 :::
 
-##### Zone C
-
-::: {#fig-UDMap_foraging_C}
+::: {.column width="33%"}
+::: {#fig-UDMap_Foraging_C}
 ```{r}
 #| echo: false
 
 tags$iframe(
   src = "UDMap_make_kud_sampled_Foraging_C.html",
   width = "100%",
-  height = "400px"
+  height = "450px"
 )
 ```
-
-Foraging zone C
+Zone C
 :::
-::::::
+:::
+::::
 
 ## Roosting area {.smaller} 
 
 ##### Results 
 
-:::::: panel-tabset
-##### Zone A
+Main area: 50% vertices in dark purple; larger area: 95% vertices in light purple
 
+:::: {.columns style="display:flex; align-items:center; gap:0em;"}
+::: {.column width="33%"}
 ::: {#fig-UDMap_roosting_A}
 ```{r}
 #| echo: false
@@ -360,15 +360,14 @@ Foraging zone C
 tags$iframe(
   src = "UDMap_make_kud_sampled_Roosting_A.html",
   width = "100%",
-  height = "400px"
+  height = "450px"
 )
 ```
-
-Roosting zone A
+Zone A
+:::
 :::
 
-##### Zone B
-
+::: {.column width="33%"}
 ::: {#fig-UDMap_roosting_B}
 ```{r}
 #| echo: false
@@ -376,15 +375,14 @@ Roosting zone A
 tags$iframe(
   src = "UDMap_make_kud_sampled_Roosting_B.html",
   width = "100%",
-  height = "400px"
+  height = "450px"
 )
 ```
-
-Roosting zone B
+Zone B
+:::
 :::
 
-##### Zone C
-
+::: {.column width="33%"}
 ::: {#fig-UDMap_roosting_C}
 ```{r}
 #| echo: false
@@ -392,13 +390,13 @@ Roosting zone B
 tags$iframe(
   src = "UDMap_make_kud_sampled_Roosting_C.html",
   width = "100%",
-  height = "400px"
+  height = "450px"
 )
 ```
-
-Roosting zone C
+Zone C
 :::
-::::::
+:::
+::::
 
 ## Roosting-foraging distance {.smaller}
 
