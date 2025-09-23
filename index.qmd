@@ -4,7 +4,7 @@ title-slide-attributes:
   data-background-image: gros-plan-d-un-jeune-courlis-avec-son-long-bec-elance-marchant-sur-le-rivage.jpg
   data-background-size: cover
   data-background-opacity: "0.9"
-author: "Suzanne BONAMOUR, Gwenaël QUINTENNE, Pierre ROUSSEAU, Loïc JOMAT, Pierrick BOCHER, Frédérique JIGUET, Adrien CHAIGNE"
+author: "**Suzanne BONAMOUR**, Gwenaël QUINTENNE, Pierre ROUSSEAU, Loïc JOMAT, Pierrick BOCHER, Frédérique JIGUET, Adrien CHAIGNE"
 format:
   revealjs:
     fontsize: 2.5em 
@@ -48,6 +48,11 @@ format:
         left: 30%;
         -ms-transform: translateY(-50%) translateX(-50%);
         transform: translateY(-50%) translateX(-50%);
+      }
+      </style>
+      <style>
+      .smaller {
+        font-size: 70%;
       }
       </style>
     theme: default
@@ -402,7 +407,9 @@ Zone C
 
 ##### Methods
 
-The **mean distance** between the **foraging and roosting** areas of each individual was estimated as the mean distance between pairs of **individual** geographic **centroids** for their foraging and roosting areas at **each tide** cycle.
+The **mean distance** between the **foraging and roosting** areas of each individual 
+
+= mean distance between pairs of **individual** geographic foraging and roosting **centroids** at **each tide** cycle.
 
 ::: {#fig-distance_roost_forag_allvar_plot}
 ```{r}
@@ -412,14 +419,16 @@ The **mean distance** between the **foraging and roosting** areas of each indivi
 knitr::include_graphics("distance_schema_geoportail_0.png", dpi = 100)
 ```
 
-Estimating mean distance (+/- standard error) between roosting and foraging areas for each individual.
+Estimating mean distance between roosting and foraging areas for each individual.
 :::
 
 ## Roosting-foraging distance {.smaller data-visibility="uncounted"}
 
 ##### Methods
 
-The **mean distance** between the **foraging and roosting** areas of each individual was estimated as the mean distance between pairs of **individual** geographic **centroids** for their foraging and roosting areas at **each tide** cycle.
+The **mean distance** between the **foraging and roosting** areas of each individual 
+
+= mean distance between pairs of **individual** geographic foraging and roosting **centroids** at **each tide** cycle.
 
 ::: {#fig-distance_roost_forag_allvar_plot}
 ```{r}
@@ -429,14 +438,16 @@ The **mean distance** between the **foraging and roosting** areas of each indivi
 knitr::include_graphics("distance_schema_geoportail_1.png", dpi = 100)
 ```
 
-Estimating mean distance (+/- standard error) between roosting and foraging areas for each individual.
+Estimating mean distance between roosting and foraging areas for each individual.
 :::
 
 ## Roosting-foraging distance {.smaller data-visibility="uncounted"}
 
 ##### Methods
 
-The **mean distance** between the **foraging and roosting** areas of each individual was estimated as the mean distance between pairs of **individual** geographic **centroids** for their foraging and roosting areas at **each tide** cycle.
+The **mean distance** between the **foraging and roosting** areas of each individual 
+
+= mean distance between pairs of **individual** geographic foraging and roosting **centroids** at **each tide** cycle.
 
 ::: {#fig-distance_roost_forag_allvar_plot}
 ```{r}
@@ -446,14 +457,16 @@ The **mean distance** between the **foraging and roosting** areas of each indivi
 knitr::include_graphics("distance_schema_geoportail_2.png", dpi = 100)
 ```
 
-Estimating mean distance (+/- standard error) between roosting and foraging areas for each individual.
+Estimating mean distance between roosting and foraging areas for each individual.
 :::
 
 ## Roosting-foraging distance {.smaller data-visibility="uncounted"}
 
 ##### Methods
 
-The **mean distance** between the **foraging and roosting** areas of each individual was estimated as the mean distance between pairs of **individual** geographic **centroids** for their foraging and roosting areas at **each tide** cycle.
+The **mean distance** between the **foraging and roosting** areas of each individual 
+
+= mean distance between pairs of **individual** geographic foraging and roosting **centroids** at **each tide** cycle.
 
 ::: {#fig-distance_roost_forag_allvar_plot}
 ```{r}
@@ -463,14 +476,16 @@ The **mean distance** between the **foraging and roosting** areas of each indivi
 knitr::include_graphics("distance_schema_geoportail_3.png", dpi = 100)
 ```
 
-Estimating mean distance (+/- standard error) between roosting and foraging areas for each individual.
+Estimating mean distance etween roosting and foraging areas for each individual.
 :::
 
 ## Roosting-foraging distance {.smaller data-visibility="uncounted"}
 
 ##### Methods
 
-The **mean distance** between the **foraging and roosting** areas of each individual was estimated as the mean distance between pairs of **individual** geographic **centroids** for their foraging and roosting areas at **each tide** cycle.
+The **mean distance** between the **foraging and roosting** areas of each individual 
+
+= mean distance between pairs of **individual** geographic foraging and roosting **centroids** at **each tide** cycle.
 
 ::: {#fig-distance_roost_forag_allvar_plot}
 ```{r}
@@ -521,6 +536,12 @@ Individual mean roosting-foraging distance (+/- standard error) as a function of
 
 ::: {.column width="50%"}
 
+Best model : 
+
+**Dist ~ sex + age + tide + sex:age + sex:tide + age:tide**
+
+<br/> 
+
 <div style="text-align:center; font-size:0.7em">
 | Effect                               | Est. | SE | p-val |
 |--------------------------------------|-----:|---:|------:|
@@ -532,7 +553,7 @@ Individual mean roosting-foraging distance (+/- standard error) as a function of
 | Sex (M) × Tide (spring tide)         |-0.15 |0.20  |0.464   | 
 | **Age (juvenile) × Tide (spring tide)**  |-0.85 |0.42  |**0.047**   | 
 
-GLM, link function: Gamma (log).
+<span style="font-size:80%; color:gray;">GLM, link function: Gamma (log)</span>
 </div>
 
 ::: 
@@ -556,6 +577,8 @@ Hunters on the public maritime land
 
 ##### Results
 
+:::: {.columns style="display:flex; align-items:center; gap:0em;"}
+::: {.column width="50%"}
 ::: {#fig-UDMap_roosting_A}
 ```{r}
 #| echo: false
@@ -563,17 +586,15 @@ Hunters on the public maritime land
 tags$iframe(
   src = "UDMap_make_kud_sampled_Foraging_in_out_saison_B.html",
   width = "100%",
-  height = "500px"
+  height = "450px"
 )
 ```
 
 Foraging area during (orange) and out (grey) the hunting season (winter) on the public maritime land.
 :::
+:::
 
-## Avoidance from shore hunting {.smaller}  
-
-##### Results
-
+::: {.column width="50%"}
 ::: {#fig-UDMap_roosting_A}
 ```{r}
 #| echo: false
@@ -581,19 +602,20 @@ Foraging area during (orange) and out (grey) the hunting season (winter) on the 
 tags$iframe(
   src = "UDMap_make_kud_sampled_Roosting_in_out_saison_B.html",
   width = "100%",
-  height = "500px"
+  height = "450px"
 )
 ```
 
 Roosting area during (purple) and out (grey) the hunting season (winter) on the public maritime land.
 :::
+::: 
+::::
 
 ## Avoidance from shore hunting {.smaller}  
 
 ##### Results
 
 :::: {.columns style="display:flex; align-items:center; gap:3em;"}
-
 ::: {.column width="50%"}
 
 ::: {#fig-pred_all_chasse_plot.png}
@@ -610,6 +632,12 @@ Individual mean roosting-foraging distance (+/- standard error) as a function of
 
 ::: {.column width="50%"}
 
+Best model : 
+
+**Dist ~ sex + hunting season**
+
+<br/> 
+
 <div style="text-align:center; font-size:0.7em">
 | Effect                               | Est. | SE | p-val |
 |--------------------------------------|-----:|---:|------:|
@@ -617,7 +645,7 @@ Individual mean roosting-foraging distance (+/- standard error) as a function of
 | Sex (M)                              |-0.983 |0.165 |**<0.001**  |
 | **Hunting (forbidden)**                   | 0.482 |0.131  |**0.001**   |     
 
-GLM, link function: Gamma (log).
+<span style="font-size:80%; color:gray;">GLM, link function: Gamma (log)</span>
 </div>
 
 ::: 
@@ -712,13 +740,38 @@ blank line, saut de ligne
 
 ## To sum up {.smaller} 
 
-- Roosting and foraging areas highly variables among individuals
-  - **Restricted** population **surfaces** during the **hunting** season
+:::: {.columns style="display:flex; align-items:center; gap:1em;"}
+
+::: {.column width="50%"}
+
+<br/>
+
+- **Restricted** population **surfaces** during the **hunting** season
 
 - Individual distance between roosting and foraging seems to vary according to 
-  - *age : sex* = **juvenile males** seems to **go further away** to roost vs feed
-  - *sex : spring vs neap tide* = **male** stay **closer** when spring tide
-  - *hunting schedule* = birds **avoid hunting cabin** when hunters are allowed to shoot (at night)
+<div class="smaller">
+  - **juvenile males go further away** to roost *vs* to feed
+  - **male** stay **closer** to feed and roost when spring tide *vs* neap tide
+  - birds **avoid hunting cabin** when hunters are allowed to shoot (at night)
+</div>
+  
+:::
+
+::: {.column width="50%"}
+
+<br/>
+
+::: {#fig-Brachvogel}
+```{r}
+#| echo: false
+#| out.width: "600px"
+knitr::include_graphics("20170226-Großer_Brachvogel.jpg", dpi = 200)
+```
+
+Flying Curlews <span style="font-size:60%; color:gray;">(photo: Großer_Brachvogel)</span>
+:::
+:::
+::::
   
 ## Some limits and drawbacks {.smaller} 
 
