@@ -444,6 +444,45 @@ Zone C
 :::
 ::::
 
+## Roosting and foraging areas {.smaller}
+
+##### Roosting area during submersion extreme events - Results 
+
+::: {#fig-UDMap_roosting_A}
+```{r}
+#| echo: false
+
+tags$iframe(
+  src = "UDMap_make_kud_sampled_hauteur_maree_Roosting_periode_sub_B (1).html",
+  width = "100%",
+  height = "500px"
+)
+```
+
+Roosting area during submersion extreme events: no submersion (between j-15 to j-11 before a submersion) in purple, submersion in yellow. 
+
+:::
+
+
+## Roosting-foraging distance {.smaller}
+
+##### Methods
+
+The **mean distance** between the **foraging and roosting** areas of each individual 
+
+= mean distance between pairs of **individual** geographic foraging and roosting **centroids** at **each tide** cycle.
+
+::: {#fig-distance_roost_forag_allvar_plot}
+```{r}
+#| echo: false
+#| out.width: 90%
+#| fig-align: "center"
+knitr::include_graphics("distance_schema_geoportail_0.png", dpi = 100)
+```
+
+Estimating mean distance between roosting and foraging areas for each individual.
+:::
+
 ## Roosting-foraging distance {.smaller}
 
 ##### Methods
