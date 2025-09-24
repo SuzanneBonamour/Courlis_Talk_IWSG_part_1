@@ -100,6 +100,10 @@ A colour ringed Eurasian Curlew (<em>Numenius arquata</em>)
 
 <br/>
 
+About 100.000 water bird individuals counted in the nature reserve and around in 2024
+
+<br/>
+
 ::: {#fig-Photo_intro}
 ```{r}
 #| echo: false
@@ -111,9 +115,9 @@ The functional site around the Moëze-Oléron National Nature Reserve
 
 ## Objectives of the study {.smaller}
 
-Understand how the Eurasian curlew uses space in a functional site comprising the Marennes basin and the Brouage marshes, in a context **maritimization** and strong **hunting** pressures. 
+Understand how the Eurasian curlew uses space in a functional site comprising the Marennes basin and the Brouage marshes, in a context **sea level rise** and **coastal squeeze ** and strong **hunting** pressures. 
 
-Identify local **priority areas** to be preserved for the protection of **wading birds**, as the Eurasian curlew as flagship species.
+Identify local **priority areas** to be preserved for the protection of **wader birds**, as the Eurasian curlew as flagship species.
 
 ::: {#fig-RNN_photo_3}
 ```{r}
@@ -741,7 +745,6 @@ Best model :
 <div class="smaller">
   - **juvenile males go further away** to roost *vs* to feed
   - **male** stay **closer** to feed and roost when spring tide *vs* neap tide
-  - birds **avoid hunting huts** when hunters are allowed to shoot (at night)
 </div>
   
 :::
@@ -757,7 +760,7 @@ Best model :
 knitr::include_graphics("Réserve Naturelle Baie de Saint-Brieuc.png", dpi = 200)
 ```
 
-Flying Curlews <span style="font-size:60%; color:gray;">(photo: Großer_Brachvogel)</span>
+Curlew lifestyle! <span style="font-size:60%; color:gray;">(photo: Großer_Brachvogel)</span>
 :::
 :::
 ::::
@@ -767,13 +770,15 @@ Flying Curlews <span style="font-size:60%; color:gray;">(photo: Großer_Brachvog
 :::: {.columns style="display:flex; align-items:center; gap:1em;"}
 ::: {.column width="50%"}
 
-- We (always ?) need more individuals, years and points 
+- We (always?) need more individuals, years and points 
 
 - It would have been very useful to have 
   - detailed data about hunting pressures
   - data about fishing and fishing pressures
   
-- Studying individual 3D movements to have access to detailed hunting/fishing avoidance behaviors ? 
+- Studying individual 3D movements to have access to detailed hunting/fishing avoidance behaviors? 
+
+- What about others wader bird species?
 
 :::
 
@@ -795,12 +800,13 @@ Ringed male Curlews <span style="font-size:60%; color:gray;">(photo: Reijo Kylm�
 
 <br/>
 
-**Extend** the natural **reserve**, especially toward **North** on the main land
+**Strengthen** the curlew's **protection status**
 
 **Limit** the effects of **hunting** by : 
 
-1) reducing the **hours** during which hunting is **permitted**
-2) limiting the **density** of hunting **huts** (especially in the immediate proximity of the nature reserve).
+1) **prohibit hunting** in Saint Froult to the **North** of the nature reserve 
+2) **prohibit hunting** when **submersion** extreme events
+3) **dismantle hunting huts** near the reserve's boundaries where **roosting sites** have been detected
 
 ::: {#fig-pred_all_plot.png}
 ```{r}
