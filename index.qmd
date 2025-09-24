@@ -3,10 +3,10 @@ title: "From Shorelines to Marshlands: Exploring Curlew Journeys near Moëze-Ol�
 title-slide-attributes:
   data-background-image: 20170226-Großer_Brachvogel.jpg
   data-background-size: cover
-  data-background-opacity: "0.7"
+  data-background-opacity: "0.5"
 author: "**Suzanne BONAMOUR**, Gwenaël QUINTENNE, Pierre ROUSSEAU, Loïc JOMAT, Pierrick BOCHER, Frédérique JIGUET, Adrien CHAIGNE"
 subtitle: |
-  <div style="position: absolute; top: -50px; left: -230px; font-size: 0.4em; color: gray; opacity: 0.6;">
+  <div style="position: absolute; top: -50px; left: -200px; font-size: 0.4em; color: gray; opacity: 0.6;">
   Photo : Großer Brachvogel
   </div>
 format:
