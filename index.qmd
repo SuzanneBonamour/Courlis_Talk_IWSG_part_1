@@ -874,4 +874,12 @@ Plaisance Beach, Saint-Froult, France
 
 ![](fonds-vert_logo.png){.absolute top=500 left=860 width="120" height="75"}
 
+## Some art! {.smaller}
+
+![](couv.png){.absolute top=90 left=325 width="420" height="594"}
+
+![](p6.png){.absolute top=160 left=0 width="315" height="445.5"}
+
+![](p51.png){.absolute top=160 left=750 width="315" height="445.5"}
+
 
