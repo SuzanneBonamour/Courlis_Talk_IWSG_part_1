@@ -730,6 +730,8 @@ Best model :
 
 <br/>
 
+- **New** roosting **sites outside** the Nature Reserve during **submersion* extreme events
+
 - **Restricted** population **surfaces** during the **hunting** season
 
 - Individual distance between roosting and foraging seems to vary:
@@ -761,13 +763,10 @@ Curlew lifestyle! <span style="font-size:60%; color:gray;">(photo: Gro√üer_Brach
 :::: {.columns style="display:flex; align-items:center; gap:1em;"}
 ::: {.column width="50%"}
 
-- We (always?) need more individuals, years and points 
+- Interesting to go deeper into hunting pressures effects 
+  - need more detailed data: when?, where? and how much?
 
-- It would have been very useful to have 
-  - detailed data about hunting pressures
-  - data about fishing and fishing pressures
-  
-- Studying individual 3D movements to have access to detailed hunting/fishing avoidance behaviors? 
+- What about fishing activities? 
 
 - What about others wader bird species?
 
@@ -795,7 +794,7 @@ Ringed male Curlews <span style="font-size:60%; color:gray;">(photo: Reijo Kylm√
 
 **Limit** the effects of **hunting** by : 
 
-1) **prohibit hunting** in Saint Froult to the **North** of the nature reserve 
+1) **prohibit hunting** in Saint-Froult to the **North** of the nature reserve 
 2) **prohibit hunting** when **submersion** extreme events
 3) **dismantle hunting huts** near the reserve's boundaries where **roosting sites** have been detected
 
