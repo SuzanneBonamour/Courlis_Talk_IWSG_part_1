@@ -120,7 +120,7 @@ The functional site around the Moëze-Oléron National Nature Reserve
 :::: {.columns style="display:flex; align-items:center; gap:0em;"}
 ::: {.column width="50%"}
 
-Understand how the Eurasian curlew uses space in a functional site comprising the Marennes basin and the Brouage marshes, in a context **sea level rise** and **coastal squeeze ** and strong **hunting** pressures. 
+Understand how the Eurasian curlew uses space in a functional site comprising the Marennes basin and the Brouage marshes, in a context **sea level rise** and **coastal squeeze **, and strong **hunting** pressures. 
 
 Identify local **priority areas** to be preserved for the protection of **wader birds**, as the Eurasian curlew as flagship species.
 :::
@@ -730,7 +730,7 @@ Best model :
 
 <br/>
 
-- **New** roosting **sites outside** the Nature Reserve during **submersion* extreme events
+- **New** roosting **sites outside** the Nature Reserve during **submersion** extreme events
 
 - **Restricted** population **surfaces** during the **hunting** season
 
@@ -738,6 +738,7 @@ Best model :
 <div class="smaller">
   - **juvenile males go further away** to roost *vs* to feed
   - **male** stay **closer** to feed and roost when spring tide *vs* neap tide
+  - according to hunting
 </div>
   
 :::
@@ -758,34 +759,6 @@ Curlew lifestyle! <span style="font-size:60%; color:gray;">(photo: Großer_Brach
 :::
 ::::
   
-## Some limits and drawbacks {.smaller} 
-
-:::: {.columns style="display:flex; align-items:center; gap:1em;"}
-::: {.column width="50%"}
-
-- Interesting to go deeper into hunting pressures effects 
-  - need more detailed data: when?, where? and how much?
-
-- What about fishing activities? 
-
-- What about others wader bird species?
-
-:::
-
-::: {.column width="50%"}
-
-::: {#fig-Brachvogel}
-```{r}
-#| echo: false
-#| out.width: "400px"
-knitr::include_graphics("Reijo Kylmänen.png", dpi = 200)
-```
-
-Ringed male Curlews <span style="font-size:60%; color:gray;">(photo: Reijo Kylmänen)</span>
-:::
-:::
-::::
-
 ## Key takeaways to better protect curlews... and other birds {.smaller}  
 
 <br/>
@@ -794,7 +767,7 @@ Ringed male Curlews <span style="font-size:60%; color:gray;">(photo: Reijo Kylm�
 
 **Limit** the effects of **hunting** by : 
 
-1) **prohibit hunting** in Saint-Froult to the **North** of the nature reserve 
+1) **prohibit hunting** in Saint-Froult beach to the **North** of the nature reserve 
 2) **prohibit hunting** when **submersion** extreme events
 3) **dismantle hunting huts** near the reserve's boundaries where **roosting sites** have been detected
 
