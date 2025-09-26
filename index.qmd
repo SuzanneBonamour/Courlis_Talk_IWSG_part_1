@@ -4,7 +4,7 @@ title-slide-attributes:
   data-background-image: 20170226-Großer_Brachvogel.jpg
   data-background-size: cover
   data-background-opacity: "0.5"
-author: "**Suzanne BONAMOUR**, Gwenaël QUINTENNE, Pierre ROUSSEAU, Loïc JOMAT, Pierrick BOCHER, Frédérique JIGUET, Adrien CHAIGNE"
+author: "**Suzanne BONAMOUR**, Gwenaël QUAINTENNE, Pierre ROUSSEAU, Loïc JOMAT, Pierrick BOCHER, Frédérique JIGUET, Adrien CHAIGNE"
 subtitle: |
   <div style="position: absolute; top: -50px; left: -100px; font-size: 0.4em; color: gray; opacity: 0.6;">
   Photo : Großer Brachvogel
