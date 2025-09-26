@@ -6,7 +6,7 @@ title-slide-attributes:
   data-background-opacity: "0.5"
 author: "**Suzanne BONAMOUR**, Gwenaël QUINTENNE, Pierre ROUSSEAU, Loïc JOMAT, Pierrick BOCHER, Frédérique JIGUET, Adrien CHAIGNE"
 subtitle: |
-  <div style="position: absolute; top: -50px; left: -200px; font-size: 0.4em; color: gray; opacity: 0.6;">
+  <div style="position: absolute; top: -50px; left: -100px; font-size: 0.4em; color: gray; opacity: 0.6;">
   Photo : Großer Brachvogel
   </div>
 format:
@@ -115,20 +115,29 @@ The functional site around the Moëze-Oléron National Nature Reserve
 
 ## Objectives of the study {.smaller}
 
+<br/>
+
+:::: {.columns style="display:flex; align-items:center; gap:0em;"}
+::: {.column width="50%"}
+
 Understand how the Eurasian curlew uses space in a functional site comprising the Marennes basin and the Brouage marshes, in a context **sea level rise** and **coastal squeeze ** and strong **hunting** pressures. 
 
 Identify local **priority areas** to be preserved for the protection of **wader birds**, as the Eurasian curlew as flagship species.
+:::
 
+::: {.column width="50%"}
 ::: {#fig-RNN_photo_3}
 ```{r}
 #| echo: false
-knitr::include_graphics("RNN_Moëze_Oléron_-_img_48656(1).jpg", dpi = 300)
+#| out.width: "600px"
+knitr::include_graphics("3-Equipement GPS courlis cendré-Photo Loic Jomat - LPÖ.jpg", dpi = 300)
 ```
 
-The Moëze-Oléron National Nature Reserve
-<span style="font-size:60%; color:gray;">(photo: Pmau)</span>
-
+Equipping Curlew
+<span style="font-size:60%; color:gray;">(photo: Loic Jomat)</span>
 :::
+:::
+::::
 
 ## Studied systems {.smaller}
 
@@ -483,25 +492,6 @@ knitr::include_graphics("distance_schema_geoportail_0.png", dpi = 100)
 Estimating mean distance between roosting and foraging areas for each individual.
 :::
 
-## Roosting-foraging distance {.smaller}
-
-##### Methods
-
-The **mean distance** between the **foraging and roosting** areas of each individual 
-
-= mean distance between pairs of **individual** geographic foraging and roosting **centroids** at **each tide** cycle.
-
-::: {#fig-distance_roost_forag_allvar_plot}
-```{r}
-#| echo: false
-#| out.width: 90%
-#| fig-align: "center"
-knitr::include_graphics("distance_schema_geoportail_0.png", dpi = 100)
-```
-
-Estimating mean distance between roosting and foraging areas for each individual.
-:::
-
 ## Roosting-foraging distance {.smaller data-visibility="uncounted"}
 
 ##### Methods
@@ -822,7 +812,17 @@ Plaisance Beach, Saint-Froult, France
 
 :::
 
+## Some art! {.smaller}
+
+![](couv.png){.absolute top=90 left=325 width="420" height="594"}
+
+![](p6.png){.absolute top=160 left=0 width="315" height="445.5"}
+
+![](p51.png){.absolute top=160 left=750 width="315" height="445.5"}
+
 ## Collaborators and fundings {.smaller} 
+
+<br/>
 
 :::: {.columns}
 
@@ -865,28 +865,21 @@ Plaisance Beach, Saint-Froult, France
 :::
 ::::
 
-![](lpo_logo.jpg){.absolute top=500 left=0 width="65" height="65"}
+![](lpo_logo.jpg){.absolute top=600 left=0 width="65" height="65"}
 
-![](reserve_logo.png){.absolute top=500 left=70 width="130" height="65"}
+![](reserve_logo.png){.absolute top=600 left=70 width="130" height="65"}
 
-![](MNHN-logo.jpg){.absolute top=500 left=200 width="65" height="65"}
+![](MNHN-logo.jpg){.absolute top=600 left=200 width="65" height="65"}
 
-![](logo_CESCO.png){.absolute top=500 left=270 width="210" height="65"}
+![](logo_CESCO.png){.absolute top=600 left=270 width="210" height="65"}
 
-![](Logo-Prefet-de-la-Region-Nouvelle-Aquitaine.png){.absolute top=500 left=485 width="140" height="70"}
+![](Logo-Prefet-de-la-Region-Nouvelle-Aquitaine.png){.absolute top=600 left=485 width="140" height="70"}
 
-![](Logo-FSE-UE-Region-Nouvelle-Aquitaine.png){.absolute top=500 left=625 width="160" height="75"}
+![](Logo-FSE-UE-Region-Nouvelle-Aquitaine.png){.absolute top=600 left=625 width="160" height="75"}
 
-![](LIENSs_transp1-e1485208828412.png){.absolute top=500 left=785 width="80" height="75"}
+![](LIENSs_transp1-e1485208828412.png){.absolute top=600 left=785 width="80" height="75"}
 
-![](fonds-vert_logo.png){.absolute top=500 left=860 width="120" height="75"}
+![](fonds-vert_logo.png){.absolute top=600 left=860 width="120" height="75"}
 
-## Some art! {.smaller}
-
-![](couv.png){.absolute top=90 left=325 width="420" height="594"}
-
-![](p6.png){.absolute top=160 left=0 width="315" height="445.5"}
-
-![](p51.png){.absolute top=160 left=750 width="315" height="445.5"}
 
 
