@@ -120,9 +120,13 @@ The functional site around the Moëze-Oléron National Nature Reserve
 :::: {.columns style="display:flex; align-items:center; gap:0em;"}
 ::: {.column width="50%"}
 
-Understand how the Eurasian curlew uses space in a functional site comprising the Marennes basin and the Brouage marshes, in a context **sea level rise** and **coastal squeeze **, and strong **hunting** pressures. 
+Understand how the Eurasian curlew uses space in a functional site around the Reserve, in a context **sea level rise** and **coastal squeeze **, and strong **hunting** pressures. 
 
 Identify local **priority areas** to be preserved for the protection of **wader birds**, as the Eurasian curlew as flagship species.
+
+<br/>
+
+MIGRATLANE and HABITRACK programs
 :::
 
 ::: {.column width="50%"}
